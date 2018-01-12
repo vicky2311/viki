@@ -1,0 +1,10 @@
+<aura:component >
+     <aura:attribute name="gridData" type="String" default="slds-hide"/>   
+    <button onclick="{!c.showThisGraph}">sdfsdfsd</button>
+	  <div aura:id="barGraph" class="{!v.gridData}">
+          sdfsfsdfsfsd
+    </div> 
+    <div aura:id="table">
+   		yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+    </div>
+</aura:component>

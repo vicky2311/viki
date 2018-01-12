@@ -1,0 +1,26 @@
+.THIS .unsupportlist{
+    height:inherit;
+    border-top: 1px solid lightblue;
+    background-color:#ffffff;
+}
+.THIS .liunsupportlist{
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+.THIS .fillheight{
+    height:24rem;
+    max-height:24rem;
+}
+
+.THIS .gridlevel{
+    height:90%;
+}
+
+.THIS .leftbordersolid{
+    	border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid cornflowerblue;
+    border-top: 1px solid cornflowerblue;
+    border-right: 1px solid cornflowerblue;
+	border-left:10px solid;
+}

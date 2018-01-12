@@ -1,0 +1,100 @@
+<aura:component controller="LoginValidation" implements="flexipage:availableForAllPageTypes" access="global">
+<aura:attribute type="String" name="auth" />
+ <aura:attribute type="String" name="userName"/>
+ <aura:attribute type="String" name="password"/>
+ <div aura:id="replacableDiv" decription="Content replacable div">
+
+ <div class="slds-grid">
+  <div class="slds-col">
+      <c:loginHeader />
+  </div>
+</div>
+    <div class="slds-float_left">
+       <div class="slds-m-bottom_large">
+           
+       <div class="slds-m-left_xx-large">
+           <div class="slds-align_absolute-center">
+				<fieldset class="slds-box slds-theme--default slds-container--medium">
+                    
+        			<legend id="legend1" class="slds-text-heading--medium 
+      					slds-p-vertical--medium">Rvault New User
+    				</legend>
+                    
+                    <div class="slds-form-element">
+  <label class="slds-form-element__label" for="fname">
+    <abbr class="slds-required" title="required">*</abbr>First Name</label>
+  <div class="slds-form-element__control">
+      <input type="text" id="fname" required="" class="slds-input" placeholder=" "/>
+  </div>
+</div>
+                    <div class="slds-form-element">
+  <label class="slds-form-element__label" for="lname">
+    <abbr class="slds-required" title="required">*</abbr>Last Name</label>
+  <div class="slds-form-element__control">
+      <input type="text" id="lname" required="" class="slds-input" placeholder=" "/>
+  </div>
+</div>
+                    <div class="slds-form-element">
+  <label class="slds-form-element__label" for="email">
+    <abbr class="slds-required" title="required">*</abbr>E-Mail</label>
+  <div class="slds-form-element__control">
+      <ui:inputText aura:id="email" value="{!v.userName}" required="" class="slds-input" placeholder=" "/>
+  </div>
+</div>
+                    <div class="slds-form-element">
+  <label class="slds-form-element__label" for="pNo">
+    <abbr class="slds-required" title="required">*</abbr>Phone Number</label>
+  <div class="slds-form-element__control">
+      <input type="text" id="pNo" required="" class="slds-input" placeholder=" "/>
+  </div>
+</div>
+                    <div class="slds-form-element">
+                        
+  <label class="slds-form-element__label" for="pass">
+    <abbr class="slds-required" title="required">*</abbr>Create Password</label>
+  <div class="slds-form-element__control">
+      <ui:inputText aura:id="pass" value="{!v.password}" required="" class="slds-input" placeholder=" "/>
+  </div>
+</div>
+<div class="slds-form-element">
+  <label class="slds-form-element__label" for="repass">
+    <abbr class="slds-required" title="required">*</abbr>Reenter Password</label>
+  <div class="slds-form-element__control">
+      <input type="password" id="repass" required="" class="slds-input" placeholder=" "/>
+  </div>
+</div>
+                    <div class="slds-form-element">
+                    </div>
+                    
+                    <div class="slds-form-element">
+                        <label class="slds-form-element__label" for="buttons"></label>
+  							<div class="slds-form-element__control">
+                        <ui:button class="slds-button slds-button_neutral" press="{!c.cancleRegistration}">Cancel</ui:button>
+  <button type="button" class="slds-button slds-button_brand" onclick="{!c.openModel}">Save</button>
+                    </div>
+                    </div>
+                    
+               </fieldset>
+                    
+           </div>
+           </div>
+        </div>
+    </div>
+    </div>
+<div data-reactroot="" class="demo-only" style="height: 640px;">
+  <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-describedby="modal-content-id-1" class="slds-modal" aura:id="wapp" >
+    <div class="slds-modal__container">
+      <header class="slds-modal__header">
+        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close">
+          <span class="slds-assistive-text">Close</span>
+        </button>
+        <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">{!v.auth}</h2>
+      </header>
+      <footer class="slds-modal__footer">
+        <button class="slds-button slds-button_brand" onclick="{!c.closeModel}">Ok</button>
+      </footer>
+    </div>
+  </section>
+  <div class="slds-backdrop" aura:id="backdrop"></div>
+</div>
+</aura:component>

@@ -1,0 +1,40 @@
+<aura:component >
+    <div class="slds-p-horizontal_xx-small slds-p-vertical_xx-small slds-p-left_xx-small slds-p-right_xx-small ">
+    <div class="slds-border_left slds-border_right slds-border_top slds-border_bottom fillheight leftbordersolid">
+        <span class="slds-text-heading_medium">
+            <div class=" slds-p-left_large slds-p-vertical_x-small ">
+             <lightning:icon iconName="utility:warning" size="small" alternativeText="Indicates approval"/>
+            Unsupported Objects List  
+             
+              <div class="slds-float_right">
+               <input type="text" class="slds-input slds-combobox__input" id="combobox-unique-id" aria-autocomplete="list" aria-controls="listbox-unique-id" autocomplete="off" role="textbox" placeholder="Search list"/>
+            </div>
+            </div>
+         </span>
+        <div class="slds-grid gridlevel">
+    <div class="slds-col slds-p-horizontal_medium slds-scrollable_y unsupportlist">
+        <ul class="ulunsupportlist">
+        	<li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+            <li class="liunsupportlist">ABC</li>
+        </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+</aura:component>

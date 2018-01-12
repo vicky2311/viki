@@ -1,0 +1,53 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+	<div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_4-of-12 slds-border_left">
+		  <div class="slds-float_left slds-m-vertical_x-medium">
+    	      <legend id="legend1" class="">
+                 Backup Jobs Status
+    		  </legend>
+           </div>
+        <table class="slds-table slds-table_cell-buffer">
+  		<tbody>
+            <tr>
+      		<td data-label="FeedItems">
+                <div class="slds-truncate" title="FeedItems">Dev</div>
+      		</td>
+      		<td data-label="FeedItemsInput">
+                <c:BarChart percent="50"/>
+      		</td>
+      	</tr>
+            <tr>
+      		<td data-label="SharedTables">
+                <div class="slds-truncate" title="SharedTables">Integration</div>
+      		</td>
+      		<td data-label="SharedTablesInput">
+        		  <c:BarChart percent="10"/>
+      		</td>
+      	</tr>
+            <tr>
+      		<td data-label="SharedTables">
+                <div class="slds-truncate" title="SharedTables">Production</div>
+      		</td>
+      		<td data-label="SharedTablesInput">
+        	  <c:BarChart percent="30"/>
+      		</td>
+      	</tr>
+            <tr>
+      		<td data-label="SharedTables">
+                <div class="slds-truncate" title="SharedTables">QA</div>
+      		</td>
+      		<td data-label="SharedTablesInput">
+        		  <c:BarChart percent="100"/>
+      		</td>
+      	</tr>
+            <tr>
+      		<td data-label="SharedTables">
+                <div class="slds-truncate" title="SharedTables">Dev 2</div>
+      		</td>
+      		<td data-label="SharedTablesInput">
+        		  <c:BarChart percent="60"/>
+      		</td>
+      	</tr>
+         </tbody>
+        </table>
+        </div>
+</aura:component>

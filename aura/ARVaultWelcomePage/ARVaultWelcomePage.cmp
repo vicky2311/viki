@@ -1,0 +1,16 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <div aura:id="replacableDiv" decription="Content replacable div">
+<div class="slds-grid">
+  <div class="slds-col">
+      <c:loginHeader />
+      <div class="slds-float_right">
+      	 <ui:button press="{!c.logout}" >Logout</ui:button>
+      </div>
+  </div>
+</div>
+<div class="slds-grid">
+  <div class="slds-col"> <c:nestedComp1 /></div>
+  <div class="slds-col"><c:nestedComponent2 /></div>
+</div>
+</div>
+</aura:component>

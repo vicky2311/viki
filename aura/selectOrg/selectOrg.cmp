@@ -1,0 +1,14 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+	 <div class="desgin">
+             <label class="">Select Org</label>
+                      <div class="slds-form-element__control">
+                        <div class="slds-select_container">
+                          <select class="slds-select" id="select-01">
+                            <option>Devlopement</option>
+                            <option>Integration</option>
+                            <option>Production</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+</aura:component>

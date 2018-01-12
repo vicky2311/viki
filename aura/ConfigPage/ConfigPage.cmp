@@ -1,0 +1,17 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+	<!--div class="slds-grid slds-wrap slds-grid_pull-padded">
+  <div class="configpage slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12"><c:Config_ARVaultLogin /></div>
+  <div class="configpage slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12"><c:Config_AdvSecurity /></div>
+  <div class="configpage slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12"><c:Config_Preferences /></div>
+  <div class="configpage slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12"><c:Config_UnsupportedObjects /></div>
+  <div class="configpage slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-1 slds-large-size_1-of-1"><c:Config_CustomAlerts /></div>
+</div-->
+    <div class="widthlevel">
+               <c:selectOrg />
+           </div>
+    <c:Config_HZ_Login />
+    <c:Config_HZ_AdvSecurity />
+    <c:Config_HZ_Preferences />
+    <c:Config_HZ_UnsupportedObjects />
+    <c:Config_CustomAlerts />
+</aura:component>

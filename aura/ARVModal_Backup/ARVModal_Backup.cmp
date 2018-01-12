@@ -1,0 +1,30 @@
+<aura:component >
+	<div class="slds">
+    <div aria-hidden="true" role="dialog" class="slds-modal slds-modal--prompt slds-fade-in-hide" aura:id="modaldialog">
+        <div class="slds-modal__container">
+            <div class="slds-modal__header slds-theme--info">
+                <!--><button class="slds-button slds-button-icon-inverse slds-notify__close slds-m-left_xx-small" onclick="{!c.hidePopup}">
+                    <lightning:icon iconName="action:close" size="x-small"/>
+                    <span class="slds-assistive-text">Close</span>
+                </button-->
+                <h2 class="slds-text-heading--medium">Force Backup</h2>
+            </div>
+            <div class="slds-modal__content slds-p-around--medium">
+                <div class="slds-m-bottom_xx-large">
+                    <lightning:input label="Enter backup label" name="label" />
+                </div>
+                <div class="slds-float_right">
+  				<button type="button" class="slds-button slds-button_neutral" onclick="{!c.hidePopup}">Cancel</button>
+  				<button type="button" class="slds-button slds-button_brand" onclick="{!c.hidePopup}">Save</button>
+			
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+    <lightning:buttonIcon iconName="utility:chart" size="xx-small" alternativeText=" " onclick="{!c.showModal}"/>
+    <div class="slds-backdrop slds-backdrop--hide" aura:id="backdrop">
+</div>
+</aura:component>

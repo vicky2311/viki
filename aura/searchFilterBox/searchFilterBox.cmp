@@ -1,0 +1,20 @@
+<aura:component >
+    <lightning:input type="search" label="Search" name="myInput" aura:id="myInput" onchange="{!c.myFunction}" />
+    <ui:inputText label="myInput" aura:id="myInput" value="My Expense" required="true" change="{!c.myFunction}"/>
+
+	<ul aura:id="myUL">
+  <li><a href="#" class="header">A</a></li>
+  <li><a href="#">Adele</a></li>
+  <li><a href="#">Agnes</a></li>
+
+  <li><a href="#" class="header">B</a></li>
+  <li><a href="#">Billy</a></li>
+  <li><a href="#">Bob</a></li>
+
+  <li><a href="#" class="header">C</a></li>
+  <li><a href="#">Calvin</a></li>
+  <li><a href="#">Christina</a></li>
+  <li><a href="#">Cindy</a></li>
+</ul>
+   
+</aura:component>

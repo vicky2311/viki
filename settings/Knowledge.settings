@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KnowledgeSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <answers>
+        <assignTo>vignesh.ravi.1@asu.edu</assignTo>
+        <defaultArticleType>Knowledge</defaultArticleType>
+        <enableArticleCreation>true</enableArticleCreation>
+    </answers>
+    <cases>
+        <articlePDFCreationProfile>custom: support profile</articlePDFCreationProfile>
+        <articlePublicSharingCommunities>
+            <community>Customer</community>
+        </articlePublicSharingCommunities>
+        <assignTo>vignesh.ravi.1@asu.edu</assignTo>
+        <defaultContributionArticleType>Knowledge</defaultContributionArticleType>
+        <editor>simple</editor>
+        <enableArticleCreation>true</enableArticleCreation>
+        <enableArticlePublicSharingSites>true</enableArticlePublicSharingSites>
+        <useProfileForPDFCreation>true</useProfileForPDFCreation>
+    </cases>
+    <defaultLanguage>en_US</defaultLanguage>
+    <enableChatterQuestionKBDeflection>true</enableChatterQuestionKBDeflection>
+    <enableCreateEditOnArticlesTab>true</enableCreateEditOnArticlesTab>
+    <enableExternalMediaContent>true</enableExternalMediaContent>
+    <enableKnowledge>true</enableKnowledge>
+    <showArticleSummariesCustomerPortal>true</showArticleSummariesCustomerPortal>
+    <showArticleSummariesInternalApp>true</showArticleSummariesInternalApp>
+    <showArticleSummariesPartnerPortal>true</showArticleSummariesPartnerPortal>
+    <showValidationStatusField>true</showValidationStatusField>
+    <suggestedArticles>
+        <caseFields>
+            <field>
+                <name>Subject</name>
+            </field>
+            <field>
+                <name>Origin</name>
+            </field>
+            <field>
+                <name>ContactEmail</name>
+            </field>
+            <field>
+                <name>ContactMobile</name>
+            </field>
+        </caseFields>
+        <useSuggestedArticlesForCase>true</useSuggestedArticlesForCase>
+    </suggestedArticles>
+</KnowledgeSettings>

@@ -1,0 +1,59 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+
+    <div class="c-container">
+        <lightning:layout horizontalAlign="space">
+            <lightning:layoutItem flexibility="auto" padding="around-small">
+                
+            </lightning:layoutItem>
+            <lightning:layoutItem flexibility="auto" padding="around-small">
+                
+            </lightning:layoutItem>
+            <lightning:layoutItem flexibility="auto" padding="around-small">
+                
+            </lightning:layoutItem>
+            <lightning:layoutItem flexibility="auto" padding="around-small">
+                
+            </lightning:layoutItem>
+        </lightning:layout>
+    </div>
+  <div class="slds-grid">
+        <div class="slds-col">
+        <div class="tile" style="width:18rem;margin: auto;">
+    <div class=" slds-p-top_small slds-p-bottom_small slds-p-left_small slds-p-right_small contents"> 
+    	<div class="slds-border_right slds-border_bottom ">
+        	<div class=" slds-p-top_small slds-p-bottom_small slds-p-left_small slds-p-right_small">
+                <div class="slds-align_absolute-center">
+                <span href="#" class="circle_style"><div style="padding-top:2rem;">Org 1</div></span>
+            </div>
+            </div>
+            <div class=" slds-text-heading_medium heading">
+            Environment_1
+                <p><input type="password" id="security-token" class="slds-input" placeholder="Access Key"/></p>
+                <p><input type="password" id="security-token" class="slds-input" placeholder="Security Key"/></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+   <div class="slds-col">
+    
+     <div class="tile" style="width:18rem;margin: auto;">
+    <div class=" slds-p-top_small slds-p-bottom_small slds-p-right_small contents"> 
+    	<div class="slds-border_right slds-border_bottom ">
+        	<div class=" slds-p-top_small slds-p-bottom_small slds-p-left_small slds-p-right_small">
+                <div class="slds-align_absolute-center">
+                <span href="#" class="circle_style"><div style="padding-top:2rem;">Org 1</div></span>
+            </div>
+            </div>
+            <div class=" slds-text-heading_medium heading">
+            Environment_1
+                <p><input type="password" id="security-token" class="slds-input" placeholder="Access Key"/></p>
+                <p><input type="password" id="security-token" class="slds-input" placeholder="Security Key"/></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+        </div>
+   
+        </aura:component>

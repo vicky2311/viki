@@ -1,0 +1,104 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    
+    <div class="slds-grid">
+  <div class="slds-col">
+	<div class="slds-m-left_x-small">
+         <article class="slds-card">
+        <div class="slds-card__header slds-wrap slds-grid_pull-padded">
+            <div class="slds-container_small">
+	    
+    	    <legend id="legend1" class="slds-text-heading--medium 
+      						slds-p-vertical--small">Previous Backup Stats
+    		</legend>
+            <div class="slds-scrollable">
+                
+            <table role="grid" class="slds-table slds-table_fixed-layout 
+                                      slds-table_resizable-cols slds-no-row-hover 
+                                      slds-scrollable_none slds-table_cell-buffer" style="width: 100%;">
+              <tr>
+                  <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left slds-text-title_caps">Status:
+                  </td>
+                <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left">Completed
+                  </td>
+                
+                </tr>
+                <tr>
+                  <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left slds-text-title_caps">Time completed:
+                  </td>
+                <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left">11.45.04 am IST
+                  </td>
+                
+                </tr>
+                <tr>
+                  <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left slds-text-title_caps">Errors:
+                  </td>
+                <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left"> 0
+                  </td>
+                
+                </tr>
+                <tr>
+                  <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left slds-text-title_caps">Warnings:
+                  </td>
+                <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left"> 0
+                  </td>
+                
+                </tr>
+                <tr>
+                  <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left slds-text-title_caps">Total Backups:
+                  </td>
+                <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left"> 4342
+                  </td>
+                
+                </tr>
+                </table>
+            </div>
+       
+    </div>          
+             </div>
+        </article>
+    </div>
+        </div>
+    </div>
+	        <div class="slds-col card1" style="height: inherit;">
+        <div class="slds-m-left_x-small card1"  style="height: 100%;">
+         <article class="slds-card"  style="height: 100%;">
+        <div class="slds-card__header slds-wrap slds-grid_pull-padded">
+            <div class="slds-container_small">
+	    
+    	    <legend id="legend1" class="slds-text-heading--medium 
+      						slds-p-vertical--small">Backup Status
+    		</legend>
+            <div class="slds-scrollable ">
+                <table role="grid" class="slds-table slds-table_fixed-layout 
+                                      slds-table_resizable-cols slds-no-row-hover 
+                                      slds-scrollable_none slds-table_cell-buffer" style="width: 100%;">
+              <tr>
+                  <td scope="col" style="width:8.75rem;" class="slds-text-heading--medium">06/21/2017
+                  </td>
+                <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left">:Next scheduled backup
+                  </td>
+                
+                </tr>
+                <tr>
+                  <td scope="col" style="width:8.75rem;" class="slds-text-heading--medium">06/20/2017
+                  </td>
+                <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left">:Previous backup
+                  </td>
+                
+                </tr>
+                    <tr>
+                  <td scope="col" style="width:8.75rem;" class="slds-text-heading--medium">Success
+                  </td>
+                <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left">:Previous backup status
+                  </td>
+                
+                </tr>
+                </table>
+            </div>
+             </div>
+             </div>
+        </article>
+        </div>
+    </div>
+        
+</aura:component>

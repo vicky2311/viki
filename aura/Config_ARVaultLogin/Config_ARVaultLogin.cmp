@@ -1,0 +1,54 @@
+<aura:component >
+    <div class="slds-p-horizontal_xx-small slds-p-vertical_xx-small slds-p-left_xx-small slds-p-right_xx-small fillheight">
+    <div class="slds-border_left slds-border_right slds-border_top slds-border_bottom ">
+    <span class="slds-text-heading_medium ">
+        <div class=" slds-p-left_large slds-p-vertical_x-small">
+        <lightning:icon iconName="utility:share" size="xx-small" alternativeText="Indicates approval"/>
+    	ARVault Login 
+        </div>
+    </span>
+    
+    <div class="slds-grid ">
+    <div class="slds-col slds-p-horizontal_medium">
+    <div class="formelements">
+	<fieldset>
+		<table class="slds-table slds-table_cell-buffer">
+  		<tbody>
+      	<tr>
+      		<td data-label="Username">
+        		<div class="slds-truncate" title="username">Username</div>
+      		</td>
+      		<td data-label="UsernameInput">
+        		<lightning:input label=" " name="usernameinput" placeholder="ABCDEF" />
+      		</td>
+      	</tr>
+      	<tr>
+      		<td data-label="Password">
+        		<div class="slds-truncate" title="password">Password</div>
+      		</td>
+      		<td data-label="PasswordInput">
+        		<lightning:input type="password" label=" " name="passwordinput" placeholder="********" />
+      		</td>
+      	</tr>
+    	</tbody>   
+    	</table>
+	</fieldset>	
+    </div>
+    </div>
+    <div class="slds-col slds-p-horizontal_medium">
+    <div class="loginStatus">
+        <div class="slds-p-top_large">
+            <div class="slds-p-left_x-large">
+        <lightning:icon iconName="action:approval" size="large" alternativeText="Indicates approval"/>
+            </div>
+        <div class="slds-p-top_x-small">
+        <lightning:button variant="neutral" label="Login Success" iconName="utility:success" iconPosition="left" onclick="{! c.handleClick }" /> 
+            </div>
+        </div>
+        
+    </div>
+	</div>    
+    </div>
+    </div>
+    </div>
+</aura:component>

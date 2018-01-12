@@ -1,0 +1,6 @@
+<aura:component >
+	<c:ARVHeader_SFOrgSetup />
+    <c:ARV_OAuthBoxes />
+    <c:ARV_SelectObjects />
+    <c:ARV_ScheduleBackup />
+</aura:component>

@@ -1,0 +1,31 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    
+    <div class="slds-grid">
+  		<div class="slds-col">
+			<div class="slds-box">
+    	    <legend id="legend1" class="slds-text-heading--medium 
+      						slds-p-vertical--small">Previous Backup Stats</legend>
+            
+            <table role="grid" class="slds-table slds-table_resizable-cols slds-no-row-hover 
+                                      slds-scrollable_none slds-table_cell-buffer">
+            	<tr>
+                	<td scope="col" class="slds-text-align_center  slds-text-title_caps">Backup Type</td>
+                	<td scope="col" class="slds-text-align_center ">On Demand</td>
+                </tr>
+                <tr>
+                	<td scope="col" class="slds-text-align_center  slds-text-title_caps">Status</td>
+                	<td scope="col" class="slds-text-align_center ">In Progress</td>
+                </tr> 
+                <tr>
+                	<td scope="col" class="slds-text-align_center  slds-text-title_caps">Date completed</td>
+                    <td scope="col" class="slds-text-align_center slds-cell-buffer_left">12/02/2017</td>
+                </tr> 
+                <tr>
+                	<td scope="col" class="slds-text-align_center  slds-text-title_caps">Time Completed</td>
+                	<td scope="col" class="slds-text-align_center ">11.00 am</td>
+                </tr> 
+                </table>   
+            </div>
+        </div>
+    </div>
+</aura:component>

@@ -1,0 +1,17 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+ <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+ <aura:attribute name="today" type="Date" default=""/>
+ 
+    <ui:inputDate aura:id="expdate" label="Today's Date" class="field" value="{!v.today}" displayDatePicker="true" />      
+    <ui:button class="btn" label="Submit" press="{!c.setOutput}"/> 
+
+ <div aura:id="msg" class="hide">
+  You entered: <ui:outputDate aura:id="oDate" value="" />
+ </div>
+    
+    <lightning:input type="datetime-local" label="Birthday" name="datetime" />
+    <lightning:input type="time" label="Time" name="time" />
+<lightning:input type="week" label="Week" name="week" />
+
+
+</aura:component>

@@ -1,0 +1,41 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    
+    <!--div class="slds-grid" >
+    	<div class="slds-p-horizontal_small slds-size_1-of-2 slds-medium-size_1-of-6 slds-large-size_3-of-12"-->
+            <div class="slds-form slds-form_stacked">
+                <div class="slds-form-element"/>
+                     <div class="slds-form-element__control">
+            			<lightning:select name="objects" aura:id="objects" label="Object" onchange="{!c.displayFreqOptions}">
+                        	<option value="obj1">Accounts</option>
+            			</lightning:select>
+                	 </div> 
+            
+            <div class="slds-form-element"/>
+                <div class="slds-form-element__control">
+            		<lightning:select name="name" aura:id="name" label="" onchange="{!c.displayFreqOptions}">
+                        <option value="name1">Name</option>
+            		</lightning:select>
+                </div>
+                <div class="slds-form-element"/>
+                <div class="slds-form-element__control">
+            		<lightning:select name="filter" aura:id="filter" label="" onchange="{!c.displayFreqOptions}">
+                        <option value="obj1">Filter by Field</option>
+           			</lightning:select>
+                </div>
+                <div class="slds-form-element"/>
+                <div class="slds-form-element__control">
+            		<lightning:input type="search" label=" " name="search" placeholder="Search"/>
+                </div>
+                <div class="slds-form-element"/>
+                <div class="slds-form-element__control">
+                    <div class="slds-p-top_medium">
+                    <lightning:button variant="brand" name="go" label="Go" />
+                </div>
+                </div>
+        </div>
+        <!--/div-->
+        <div class="slds-size_1-of-2 slds-medium-size_5-of-6 slds-large-size_9-of-12">
+            
+                    </div>
+    <!--/div-->
+</aura:component>

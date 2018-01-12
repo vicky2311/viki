@@ -1,0 +1,7 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+	<c:Config_HZ_Login />
+    <c:Config_HZ_AdvSecurity />
+    <c:Config_HZ_Preferences />
+    <c:Config_HZ_UnsupportedObjects />
+    <c:Config_CustomAlerts />
+</aura:component>

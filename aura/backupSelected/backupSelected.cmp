@@ -1,0 +1,46 @@
+<aura:component >
+<div class="slds-col">
+	<div class="slds-m-left_x-small">
+         <article class="slds-card">
+        <div class="slds-card__header slds-wrap slds-grid_pull-padded">
+            <div class="slds-container_small">
+                <legend id="legend1" class="slds-text-heading--medium 
+      						slds-p-vertical--small">Backup Selected
+    			</legend>
+                <div class="slds-text-longform">
+                    <table role="grid" class="slds-table slds-table_fixed-layout 
+                                      slds-table_resizable-cols slds-no-row-hover 
+                                      slds-scrollable_none slds-table_cell-buffer" style="width: 100%;">
+              <tr>
+                  <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left slds-text-title_caps">Salesfore object
+                  </td>
+                <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left">Last backed up on
+                  </td>
+                <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left">No of Records
+                  </td>
+                </tr>
+                        <tr>
+                  <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left slds-text-title_caps">Accounts
+                  </td>
+                            <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left">06/08/2017(11.22.04 am)
+                  </td>
+                <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left">534
+                  </td>
+                </tr>
+                        <tr>
+                      <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left slds-text-title_caps">Apex class
+                  </td>
+                            <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left">04/08/2017(05.22.04 am)
+                  </td>
+                <td scope="col" style="width:8.75rem;" class="slds-text-align_center slds-cell-buffer_left">54
+                  </td>
+                </tr>
+                    </table>
+                </div>
+            </div>
+             </div>
+        </article>
+    </div>
+        </div>
+    	
+</aura:component>

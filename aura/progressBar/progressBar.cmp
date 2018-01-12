@@ -1,0 +1,245 @@
+<aura:component >
+	<div class="demo-only" style="padding: 1rem;">
+  		<div class="slds-progress">
+            <ol class="slds-progress__list">
+      			<li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<lightning:icon iconName="action:approval" size="xx-small" alternativeText="Indicates approval"/>
+          				<span class="slds-assistive-text">Step 1 - Completed</span>
+                    </button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<lightning:icon iconName="action:approval" size="xx-small" alternativeText="Indicates approval"/>
+          				<span class="slds-assistive-text">Step 1 - Completed</span>
+                    </button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<lightning:icon iconName="action:approval" size="xx-small" alternativeText="Indicates approval"/>
+          				<span class="slds-assistive-text">Step 1 - Completed</span>
+                    </button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<lightning:icon iconName="action:approval" size="xx-small" alternativeText="Indicates approval"/>
+          				<span class="slds-assistive-text">Step 1 - Completed</span>
+                    </button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<lightning:icon iconName="action:approval" size="xx-small" alternativeText="Indicates approval"/>
+          				<span class="slds-assistive-text">Step 1 - Completed</span>
+                    </button>
+                </li>
+            </ol>
+            <div class="slds-progress-bar slds-progress-bar_x-small" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" role="progressbar">
+      			<span class="slds-progress-bar__value" style="width: 50%;">
+        		<span class="slds-assistive-text">Progress: 25%</span>
+                </span>
+        </div>
+    </div>
+    </div>
+    <div class="slds-progress">
+            <ol class="slds-progress__list">
+      			<li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<lightning:icon iconName="action:approval" size="large" alternativeText="Indicates approval"/>
+          				<span class="slds-assistive-text">Step 1 - Completed</span>
+                    </button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<lightning:icon iconName="action:approval" size="large" alternativeText="Indicates approval"/>
+          				<span class="slds-assistive-text">Step 1 - Completed</span>
+                    </button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<lightning:icon iconName="action:approval" size="large" alternativeText="Indicates approval"/>
+          				<span class="slds-assistive-text">Step 1 - Completed</span>
+                    </button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<lightning:icon iconName="action:approval" size="large" alternativeText="Indicates approval"/>
+          				<span class="slds-assistive-text">Step 1 - Completed</span>
+                    </button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<lightning:icon iconName="action:approval" size="large" alternativeText="Indicates approval"/>
+          				<span class="slds-assistive-text">Step 1 - Completed</span>
+                    </button>
+                </li>
+            </ol>
+            <div class="slds-progress-bar slds-progress-bar_x-small" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" role="progressbar">
+      			<span class="slds-progress-bar__value" style="width: 50%;">
+        		<span class="slds-assistive-text">Progress: 25%</span>
+                </span>
+        </div>
+    </div>
+    <div class="slds-progress">
+            <ol class="slds-progress__list">
+      			<li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<div class="card_1" >
+  							<div class="container" style=" padding: 2px 16px;">
+    						<span class="month">Aug</span>
+   							<span class="day">05</span>
+  							</div>
+						</div>
+          				<span class="slds-assistive-text">Step 1 - Completed</span>
+                    </button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<div class="card_1" >
+  							<div class="containe" style=" padding: 2px 16px;">
+    						<span class="month">Aug</span>
+   							<span class="day">06</span>
+  							</div>
+						</div></button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<div class="card_1" >
+  							<div class="container" style=" padding: 2px 16px;">
+    						<span class="month">Aug</span>
+   							<span class="day">07</span>
+  							</div>
+						</div></button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<div class="card_1" >
+  							<div class="container" style=" padding: 2px 16px;">
+    						<span class="month">Aug</span>
+   							<span class="day">08</span>
+  							</div>
+						</div></button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<div class="card_1" >
+  							<div class="container" style=" padding: 2px 16px;">
+    						<span class="month">Aug</span>
+   							<span class="day">09</span>
+  							</div>
+						</div></button>
+                </li>
+            </ol>
+            <div class="slds-progress-bar slds-progress-bar_x-small" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" role="progressbar">
+      			<span class="slds-progress-bar__value" style="width: 50%;">
+        		<span class="slds-assistive-text">Progress: 25%</span>
+                </span>
+        </div>
+    </div>
+    <div class="slds-progress">
+            <ol class="slds-progress__list">
+      			<li class="slds-progress__item slds-is-completed">
+                    <button class="button_1 slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<div class="card_1" >
+  							<div class="container_1" style=" padding: 2px 16px;">
+    						<span class="month1">Aug</span>
+   							<span class="day1">05</span>
+  							</div>
+						</div>
+          				<span class="slds-assistive-text">Step 1 - Completed</span>
+                    </button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class=" button_1 slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<div class="card_1" >
+  							<div class="container_1" style=" padding: 2px 16px;">
+    						<span class="month1">Aug</span>
+   							<span class="day1">06</span>
+  							</div>
+						</div></button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class=" button_1 slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<div class="card_1" >
+  							<div class="container_1" style=" padding: 2px 16px;">
+    						<span class="month1">Aug</span>
+   							<span class="day1">07</span>
+  							</div>
+						</div></button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class=" button_1 slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed">
+                    	<div class="card_1" >
+  							<div class="container_1" style=" padding: 2px 16px;">
+    						<span class="month1">Aug</span>
+   							<span class="day1">08</span>
+  							</div>
+						</div></button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed" style="darkseagreen">
+                    	<div class="card_1" >
+  							<div class="container_1" style=" padding: 2px 16px;">
+    						<span class="month1">Aug</span>
+   							<span class="day1">09</span>
+  							</div>
+						</div></button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed" style="darkseagreen">
+                    	<div class="card_1" >
+  							<div class="container_1" style=" padding: 2px 16px;">
+    						<span class="month1">Aug</span>
+   							<span class="day1">09</span>
+  							</div>
+						</div></button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed" style="darkseagreen">
+                    	<div class="card_1" >
+  							<div class="container_1" style=" padding: 2px 16px;">
+    						<span class="month1">Aug</span>
+   							<span class="day1">09</span>
+  							</div>
+						</div></button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed" style="darkseagreen">
+                    	<div class="card_1" >
+  							<div class="container_1" style=" padding: 2px 16px;">
+    						<span class="month1">Aug</span>
+   							<span class="day1">09</span>
+  							</div>
+						</div></button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed" style="darkseagreen">
+                    	<div class="card_1" >
+  							<div class="container_1" style=" padding: 2px 16px;">
+    						<span class="month1">Aug</span>
+   							<span class="day1">09</span>
+  							</div>
+						</div></button>
+                </li>
+                <li class="slds-progress__item slds-is-completed">
+                    <button class="slds-button slds-button_icon slds-button_icon slds-progress__marker slds-progress__marker_icon" title="Step 1 - Completed" style="darkseagreen">
+                    	<div class="card_1" >
+  							<div class="container_1" style=" padding: 2px 16px;">
+    						<span class="month1">Aug</span>
+   							<span class="day1">09</span>
+  							</div>
+						</div></button>
+                </li>
+            </ol>
+            <div class="slds-progress-bar slds-progress-bar_x-small" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" role="progressbar">
+      			<span class="slds-progress-bar__value" style="width: 0%;">
+        		<span class="slds-assistive-text">Progress: 25%</span>
+                </span>
+        </div>
+    </div>
+    <div class="card_1" >
+  	<div class="container" style=" padding: 2px 16px;">
+    	<span class="month">Aug</span>
+   		<span class="day">05</span>
+  	</div>
+	</div>
+</aura:component>

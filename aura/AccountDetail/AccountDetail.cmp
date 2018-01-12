@@ -1,0 +1,20 @@
+<aura:component controller="TestRemoteSite" implements="force:appHostable,force:lightningQuickAction,flexipage:availableForRecordHome,flexipage:availableForAllPageTypes,force:hasRecordId" access="global">
+    
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="Id" type="String"/> 
+    <aura:attribute name="acc" type="Account"/>
+    <table>
+        <tr>
+            <th> Account Detail </th>
+        </tr>
+        <tr>
+            <td> {!v.acc.Id} </td> <br/>
+            <td> {!v.acc.Name} </td> <br/>
+            <td> {!v.acc.Industry} </td> <br/>
+            <td> {!v.acc.Type} </td> <br/>
+            <td> {!v.acc.NumberOfEmployees} </td> <br/>
+            <td> {!v.acc.TickerSymbol} </td> <br/>
+            <td> {!v.acc.Phone} </td> <br/>
+        </tr>    
+	</table>    
+</aura:component>

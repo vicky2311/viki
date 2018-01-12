@@ -1,0 +1,30 @@
+<aura:component >
+    <div class="slds-p-horizontal_xx-small slds-p-vertical_xx-small slds-p-left_xx-small slds-p-right_xx-small fillheight">
+    <div class="slds-border_left slds-border_right slds-border_top slds-border_bottom ">
+    <span class="slds-text-heading_medium ">
+        <div class=" slds-p-left_large slds-p-vertical_x-small">
+        <lightning:icon iconName="utility:share" size="xx-small" alternativeText="Indicates approval"/>
+    	ARVault Login 
+        </div>
+    </span>
+    <div class="slds-grid slds-wrap slds-grid_pull-padded aligh">
+  		<div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_4-of-12">
+            <lightning:input label=" " name="usernameinput" placeholder="User Name" />
+        </div>
+  		<div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_4-of-12">
+            <lightning:input type="password" label=" " name="passwordinput" placeholder="Enter Password" />
+        </div>
+  		<div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_1-of-12">
+        	<div class="slds-p-left_x-small slds-m-top_medium">
+       			 <lightning:icon iconName="action:approval" size="x-small" alternativeText="Indicates approval"/>
+            </div>
+        </div>
+  		<div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_3-of-12">
+        	<div class="slds-p-top_x-small slds-m-top_medium">
+      		  <lightning:button variant="neutral" label="Login Success" iconName="utility:success" iconPosition="left" onclick="{! c.handleClick }" /> 
+            </div>
+        </div>
+   </div>   
+    </div>
+    </div>
+</aura:component>

@@ -1,0 +1,29 @@
+.THIS thead{
+   font-weight: bold!important;
+       
+}
+.THIS .header{
+    
+}
+.THIS .title{
+    font-weight: bold!important;
+}
+.THIS .objTable{
+    padding-left: 5rem;
+    padding-right:1rem;   
+}
+.THIS input{
+    
+}
+.THIS .fieldTable{
+    padding-left: 1rem;
+    padding-right:5rem;
+    
+   
+}
+.THIS table{
+    height:9rem;
+}
+.THIS .selectobjfield{
+    width:35rem;
+}

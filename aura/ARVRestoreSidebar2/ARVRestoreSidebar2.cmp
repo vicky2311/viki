@@ -1,0 +1,32 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <div class="slds-form slds-form_stacked">
+		<div class="slds-form-element"/>
+			<div class="slds-form-element__control">
+				<lightning:select name="objects" aura:id="objects" label="" onchange="{!c.displayFreqOptions}">
+					<option value="obj1">2017</option>
+				</lightning:select>
+			</div> 
+            <div class="slds-form-element"/>
+                <div class="slds-form-element__control">
+            		<lightning:select name="name" aura:id="name" label="" onchange="{!c.displayFreqOptions}">
+                        <option value="name1">Month</option>
+            		</lightning:select>
+                </div>
+                <div class="slds-form-element"/>
+                <div class="slds-form-element__control">
+            		<lightning:input type="date" label=" " name="date" />
+
+                </div>
+                <div class="slds-form-element"/>
+                <div class="slds-form-element__control">
+            		<lightning:input type="date" label=" " name="date" />
+
+                </div>
+                <div class="slds-form-element"/>
+                <div class="slds-form-element__control">
+                    <div class="slds-p-top_medium">
+                    <lightning:button variant="brand" name="go" label="Go" />
+                </div>
+                </div>
+        </div>        
+</aura:component>

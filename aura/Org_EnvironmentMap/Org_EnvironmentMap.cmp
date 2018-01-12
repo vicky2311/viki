@@ -1,0 +1,46 @@
+<aura:component >
+	<div class=" slds-p-top_small slds-p-bottom_small slds-p-right_small contents envimap" style="width:25rem;margin: auto;"> 
+    	<div class="slds-border_right slds-border_bottom ">
+        	<div class=" slds-p-top_small slds-p-bottom_small slds-p-left_small slds-p-right_small">
+                <table class="slds-table slds-table_cell-buffer ">
+        			<div class="slds-scrollable_y ">
+        				<thead>
+        					<tr class="header_row">
+                                <td>Salesforce Org</td>
+                                <td>Backup Environment</td>
+                            </tr>
+                            <tr>
+                            	<td>Salesforce Trial2</td>
+                                <td><select class="slds-select" id="selectUser">
+                    				<option> Choose Environment</option>
+                    				</select>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td>Salesforce Trial2</td>
+                                <td><select class="slds-select" id="selectUser">
+                    				<option> Choose Environment</option>
+                    				</select>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td>Salesforce Trial2</td>
+                                <td><select class="slds-select" id="selectUser">
+                    				<option> Choose Environment</option>
+                    				</select>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td>Salesforce Trial2</td>
+                                <td><select class="slds-select" id="selectUser">
+                    				<option> Choose Environment</option>
+                    				</select>
+                                </td>
+                            </tr>
+                        </thead>
+                    </div>
+                </table>
+            </div>
+        </div>
+    </div>
+</aura:component>

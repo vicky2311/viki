@@ -1,0 +1,19 @@
+.THIS .cell{
+    padding-left:2rem;
+    padding-right:5rem;
+}
+.THIS .cellicon{
+    padding-top:1.4rem;
+}
+.THIS input{
+    border-right:0;
+     border-left:0;
+     border-top:0;
+    
+}
+.THIS input:focus{
+   border-right:0;
+     border-left:0;
+     border-top:0;
+    
+}

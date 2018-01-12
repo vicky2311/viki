@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label>hi Hru</label>
+        <name>Test_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- general --></label>
+        <name>general</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- general2 --></label>
+        <name>general2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- testing_3 --></label>
+        <name>testing_3</name>
+    </customLabels>
+    <globalPicklists>
+        <name>local</name>
+        <picklistValues>
+            <masterLabel>Abhi</masterLabel>
+            <translation><!-- Abhi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adharsh</masterLabel>
+            <translation><!-- Adharsh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Murali</masterLabel>
+            <translation><!-- Murali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radha</masterLabel>
+            <translation><!-- Radha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ravi</masterLabel>
+            <translation><!-- Ravi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vignesh</masterLabel>
+            <translation><!-- Vignesh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vikki</masterLabel>
+            <translation><!-- Vikki --></translation>
+        </picklistValues>
+    </globalPicklists>
+    <globalPicklists>
+        <name>my_picklist</name>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>34</masterLabel>
+            <translation><!-- 34 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>531</masterLabel>
+            <translation><!-- 531 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>55</masterLabel>
+            <translation><!-- 55 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>77</masterLabel>
+            <translation><!-- 77 --></translation>
+        </picklistValues>
+    </globalPicklists>
+    <globalPicklists>
+        <name>test_picklist</name>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>203</masterLabel>
+            <translation><!-- 203 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>350</masterLabel>
+            <translation><!-- 350 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+    </globalPicklists>
+    <globalPicklists>
+        <name>hello</name>
+        <picklistValues>
+            <masterLabel>Chicken</masterLabel>
+            <translation><!-- Chicken --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lamb</masterLabel>
+            <translation><!-- Lamb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mutton</masterLabel>
+            <translation><!-- Mutton --></translation>
+        </picklistValues>
+    </globalPicklists>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Accounts with Entitlements with Contacts --></description>
+        <label><!-- Accounts with Entitlements with Contacts --></label>
+        <name>Accounts_with_Entitlements_with_Contacts</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Entitlements --></label>
+            <name>Entitlements</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Service Contracts with Contract Line Items --></description>
+        <label><!-- Service Contracts with Contract Line Items --></label>
+        <name>Service_Contracts_with_Contract_Line_Items</name>
+        <sections>
+            <label><!-- Contract Line Items --></label>
+            <name>Contract Line Items</name>
+        </sections>
+        <sections>
+            <label><!-- Service Contracts --></label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Service Contracts with Entitlements --></description>
+        <label><!-- Service Contracts with Entitlements --></label>
+        <name>Service_Contracts_with_Entitlements</name>
+        <sections>
+            <label><!-- Entitlements --></label>
+            <name>Entitlements</name>
+        </sections>
+        <sections>
+            <label><!-- Service Contracts --></label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+</Translations>

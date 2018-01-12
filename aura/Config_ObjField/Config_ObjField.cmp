@@ -1,0 +1,8 @@
+<aura:component >
+	<div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_7-of-12 slds-large-size_7-of-12">
+    	<c:objectsList />
+    </div>
+    <div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_5-of-12 slds-large-size_5-of-12">
+		<c:fieldsList />
+    </div>
+</aura:component>

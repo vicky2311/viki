@@ -1,0 +1,7 @@
+<aura:component controller="TestRemoteSite">
+    <aura:attribute name="message" type="String" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <h2>{!v.message}</h2>
+
+</aura:component>

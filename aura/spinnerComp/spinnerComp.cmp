@@ -1,0 +1,6 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <div id="spinner">
+ 		<ui:spinner aura:id="spinner"/>
+ 		<ui:button press="{!c.toggleSpinner}" label="Toggle Spinner" />
+    </div>
+</aura:component>

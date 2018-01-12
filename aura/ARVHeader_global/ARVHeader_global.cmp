@@ -1,0 +1,92 @@
+<aura:component >
+<div class="slds-context-bar">
+  <div class="slds-context-bar__primary slds-context-bar__item_divider-right">
+    <div class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_click slds-no-hover slds-context-bar__item_divider-right">
+      <div class="slds-context-bar__icon-action slds-context-bar__item_divider-right">
+        <button class="slds-button slds-icon-waffle_container slds-context-bar__button" title="Description of the icon when needed">
+            <span class="slds-icon-waffle">
+            <span class="slds-r1"></span>
+            <span class="slds-r2"></span>
+            <span class="slds-r3"></span>
+            <span class="slds-r4"></span>
+            <span class="slds-r5"></span>
+            <span class="slds-r6"></span>
+            <span class="slds-r7"></span>
+            <span class="slds-r8"></span>
+            <span class="slds-r9"></span>
+          </span>
+          </button>
+        </div>
+        <span class="slds-context-bar__label-action slds-context-bar__app-name">
+        	<span class="slds-truncate" title="ARVault">ARVault</span>
+      	</span>
+    </div>
+    </div>
+    <nav class="slds-context-bar__secondary" role="navigation">
+    	<ul class="slds-grid">
+      		<li class="slds-context-bar__item slds-context-bar__item_divider-right">
+        		<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Home">
+          			<span class="slds-truncate" title="Home">Home</span>
+        		</a>
+      		</li>
+        	<li class="slds-context-bar__item slds-context-bar__dropdown-trigger slds-dropdown-trigger slds-dropdown-trigger_hover slds-context-bar__item_divider-right">
+        		<a href="javascript:void(0);" class="slds-context-bar__label-action slds-is-active" title="Menu Item">
+          			<span class="slds-truncate" title="Setup">Setup</span>
+        		</a>
+        	<div class="slds-context-bar__icon-action slds-p-left_none slds-context-bar__item_divider-right">
+          		<button class="slds-button slds-button_icon slds-button_icon slds-context-bar__button" aria-haspopup="true" title="Open menu item submenu">
+             		<lightning:icon iconName="utility:chevrondown" size="xx-small" alternativeText="Indicates approval"/>
+            			<span class="slds-assistive-text">Open menu item submenu</span>
+          		</button>
+        	</div>
+        	<div class="slds-dropdown slds-dropdown_right slds-context-bar__item_divider-right">
+          		<ul class="slds-dropdown__list" role="menu">
+            		<li class="slds-dropdown__item slds-context-bar__item_divider-right" role="presentation">
+              			<a href="javascript:void(0);" role="menuitem" tabindex="-1">
+                			<span class="slds-truncate" title="Main action">
+                   			<lightning:icon iconName="utility:add" size="xx-small" alternativeText="Indicates approval"/>  New Org</span>
+              			</a>
+            		</li>
+            		<li class="slds-dropdown__header slds-has-divider_top-space slds-context-bar__item_divider-right" role="separator">
+              			<span class="slds-text-title_caps">Org Management</span>
+            		</li>
+            		<li class="slds-dropdown__item slds-context-bar__item_divider-right" role="presentation">
+              			<a href="javascript:void(0);" role="menuitem" tabindex="-1">
+                			<span class="slds-truncate" title="Menu Item One">Org One</span>
+              			</a>
+            		</li>
+            		<li class="slds-dropdown__item slds-context-bar__item_divider-right" role="presentation">
+              			<a href="javascript:void(0);" role="menuitem" tabindex="-1">
+                			<span class="slds-truncate" title="Menu Item Two">Org Two</span>
+              			</a>
+            		</li>
+            		<li class="slds-dropdown__item slds-context-bar__item_divider-right" role="presentation">
+              			<a href="javascript:void(0);" role="menuitem" tabindex="-1">
+                		<span class="slds-truncate" title="Menu Item Three">Org Three</span>
+              			</a>
+            		</li>
+          		</ul>
+        	</div>
+      </li>
+        	<li class="slds-context-bar__item slds-context-bar__item_divider-right">
+        		<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Home">
+          			<span class="slds-truncate" title="Backup">Backup</span>
+        		</a>
+      		</li>
+        	<li class="slds-context-bar__item slds-context-bar__item_divider-right">
+        		<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Home">
+          			<span class="slds-truncate" title="Restore">Restore</span>
+        		</a>
+      		</li>
+        	<li class="slds-context-bar__item slds-context-bar__item_divider-right">
+        		<a href="javascript:void(0);" class="slds-context-bar__label-action" title="Home" onclick="{!c.naviageteToBackup}">
+          			<span class="slds-truncate" title="Compare">Compare</span>
+        		</a>
+      		</li>
+   		</ul>  
+    </nav>
+    <div class="slds-p-right_large slds-p-top_xx-small">
+    	<lightning:buttonIcon iconName="utility:settings" variant="bare" alternativeText="Settings" iconClass="dark"/>
+    </div>
+    </div>
+</aura:component>

@@ -1,0 +1,15 @@
+.THIS .header_row{
+    font-weight: bold!important;
+    color: #ff3866!important;
+}
+.THIS select{
+    width:10rem;
+    border-right:0;
+     border-left:0;
+     border-top:0;
+    color:grey;
+    
+}
+.THIS envimap{
+    width:30rem;
+}

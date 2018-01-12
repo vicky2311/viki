@@ -1,0 +1,58 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <div aura:id="createAlert">
+	<div class="slds-p-horizontal_xx-small slds-p-vertical_xx-small slds-p-left_xx-small slds-p-right_xx-small fillheight">
+    	<div class="slds-border_left slds-border_right slds-border_top slds-border_bottom">
+            <div class="slds-p-horizontal_xx-small slds-p-vertical_xx-small slds-p-left_xx-small slds-p-right_xx-small fillheight">
+    		<span class="slds-text-heading_medium">
+        		
+                <div class="saveButton">
+        			<button class="slds-button">Save</button>
+        		</div>
+                <div class="manageAlerts">
+        			<lightning:button variant="base" label="Manage Alerts" onclick="{!c.manageAlert}"></lightning:button>
+        		</div>
+       			<div class=" slds-p-left_large slds-p-vertical_x-small ">
+           			<lightning:icon iconName="utility:notification" size="small" alternativeText="Indicates approval"/>
+    	   		Create Custom Alerts  
+        		</div>
+    		</span>
+                <div class="slds-grid">
+                   <div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_3-of-12 slds-large-size_3-of-12">
+            			<div class="slds-form">
+            				<div class="slds-form-element">
+    			<label class="slds-form-element__label" for="LabelAlert">Label Custom Alert</label>
+            	<div class="slds-form-element__control">
+                    <input type="text" id="LabelAlert" class="slds-input" placeholder=""/>
+                </div>
+            </div>
+            <div class="slds-form-element">
+    			<label class="slds-form-element__label" for="emails">Emails to notify</label>
+            	<div class="slds-form-element__control">
+                    <input type="email" id="emails" class="slds-input" placeholder=""/>
+                </div>
+            </div>
+							<div class="slds-form-element">
+    			<label class="slds-form-element__label" for="alertWhen">Alert When</label>
+            	<div class="slds-form-element__control">
+					<lightning:select name="selectItem" aura:id="selectItem" label=" "  onchange="{!c.selectOptions}">
+                        <option value=" ">Choose</option>
+                    	<option value="threshold">Changes exceed a threshold</option>
+                       <option value="fieldChange">A field changes</option>
+                       <option value="restore">Restore is initiated</option>
+                       <option value="protect">Protect is initiated</option>
+                    </lightning:select>
+                </div>
+            </div>
+            			</div>
+                    </div>
+                    <div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_9-of-12 slds-large-size_9-of-12">
+                        <div class="slds-grid " aura:id="replaceElements">
+                   			nfjsfnsjnf
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</aura:component>

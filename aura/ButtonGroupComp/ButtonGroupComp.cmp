@@ -1,0 +1,23 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">   
+    <span >
+  <button class="slds-button slds-button_icon slds-button_icon slds-button_icon-more" aria-haspopup="true" title="More Options">
+  <lightning:icon iconName="utility:settings" size="x-small" alternativeText="Settings"/>
+  <lightning:icon iconName="utility:down" size="xx-small" alternativeText="Indicates approval"/>
+</button>
+    <button class="slds-button slds-button_icon slds-button_icon slds-button_icon-more" aria-haspopup="true" title="More Options">
+  <lightning:icon iconName="utility:table" size="x-small" alternativeText="Settings"/>
+  <lightning:icon iconName="utility:down" size="xx-small" alternativeText="Indicates approval"/>
+</button>
+    <button class="slds-button slds-button_icon slds-button_icon slds-button_icon-more" title="Provide description of action" >
+        <lightning:icon iconName="utility:refresh" size="x-small" alternativeText="Settings" />
+</button>
+    <button class="slds-button slds-button_icon slds-button_icon slds-button_icon-more" title="Provide description of action">
+        <lightning:icon iconName="utility:edit" size="x-small" alternativeText="Settings" />
+</button>
+    
+        <lightning:button iconName="utility:chart" disabled="true"/>
+        <lightning:button iconName="utility:filter" disabled="true"/>
+   
+    </span>
+        
+</aura:component>

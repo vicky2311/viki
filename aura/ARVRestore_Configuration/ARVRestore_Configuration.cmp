@@ -1,0 +1,15 @@
+<aura:component >
+	<div class="slds-grid" >
+    		<div class="slds-p-horizontal_small slds-size_1-of-2 slds-medium-size_3-of-6 slds-large-size_6-of-12">
+            	<c:ARVPrevSumm_Restore />
+            </div>
+            <div class="slds-p-horizontal_small slds-p-top_medium slds-size_1-of-2 slds-medium-size_3-of-6 slds-large-size_6-of-12">
+            	<c:ARVselectOptions_Restore />
+                <div class="slds-p-top_medium">
+                <lightning:button variant="brand" label="Confirm" onclick="{! c.handleClick }" />
+                </div>
+        </div>
+                    
+            
+        </div>
+</aura:component>

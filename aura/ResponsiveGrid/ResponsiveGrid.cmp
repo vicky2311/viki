@@ -1,0 +1,36 @@
+<aura:component controller="BackupHistoryService" implements="flexipage:availableForAllPageTypes" access="global">   
+    <aura:attribute name="gridData" type="Object"/>    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>  
+    <legend id="legend1" class="slds-text-heading--medium slds-p-vertical--medium">
+        Activity History
+    </legend>        
+   <lightning:button label="Search" onclick=""/>
+
+	<div class="slds-scrollable slds-grow">
+    <div class="slds griddata">
+		<table aura:id="activityHistoryGrid" 
+               role="grid" class="slds-table activityHistoryGrid slds-table_bordered 
+                                      slds-table_resizable-cols slds-table_striped
+                                      slds-scrollable_none slds-table_cell-buffer">    	
+			<thead>
+				<tr class="">            	
+                 <aura:iteration items="{!v.gridData.headers}" var="col">                     
+					<th class=""> {!col.title} </th>  
+                </aura:iteration>                
+            	</tr>        	 
+        </thead>
+		<tbody>
+           <aura:iteration items="{!v.gridData.rows}" var="row">
+				<tr class="slds-hint-parent">                        
+                        <td class="slds-is-sortable" scope="col">{!row.id}</td>
+                        <td class="slds-is-sortable" scope="col">{!row.date}</td>
+                        <td class="">{!row.status}</td>
+                        <td class="">{!row.triggerdby}</td>
+                </tr>
+             </aura:iteration>              
+        </tbody>    
+    	</table>
+    </div>
+    </div>    
+
+</aura:component>

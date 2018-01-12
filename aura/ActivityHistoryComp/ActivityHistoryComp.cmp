@@ -1,0 +1,83 @@
+<aura:component controller="BackupHistoryService" implements="flexipage:availableForAllPageTypes" access="global">
+    <aura:attribute name="gridData" type="Object"/>    
+      <ltng:require scripts="{!join(',',
+    				$Resource.ChartJS23, 
+    				$Resource.backupService)}"
+					afterScriptsLoaded="{!c.scriptsLoaded}" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>  
+    <div class="historyparetn">
+    <div class="slds-m-left_x-small cActivityHistoryCompHeader" id="cActivityHistoryCompHeader">
+       <div class="slds-clearfix slds-m-bottom_x-medium " id="header">
+           <div class="widthlevel">
+               <c:selectOrg />
+           </div>
+               <div class="slds-float_right">
+                	<lightning:button class="slds-m-vertical_x-medium slds-m-left_small" aura:id="Refbutton" variant="brand" label="Next" iconName="utility:forward" iconPosition="right" onclick="{! c.handleClick }" />
+               </div>
+                <div class="slds-float_right">
+                	<lightning:button class="slds-m-vertical_x-medium slds-m-left_small" aura:id="Refbutton" variant="brand" label=" " iconName="utility:refresh" iconPosition="right" onclick="{! c.handleClick }" />
+               </div>
+        	   <div class="slds-float_right">
+                	<lightning:button class="slds-m-vertical_x-medium slds-m-left_small" disabled="" aura:id="Refbutton" variant="brand" label="Previous" iconName="utility:back" iconPosition="left" onclick="{! c.handleClick }" />
+               </div>
+           	   <div class="slds-float_right">   
+        		  <ui:inputDate aura:id="date" label=" " class="field" displayDatePicker="true" />  
+               </div>
+           </div>
+    </div>
+    <div>
+	    <canvas aura:id="chart" height="100"></canvas>
+    </div>    
+    <div class="slds-scrollable_y cActivityHistoryCompTable" id="cActivityHistoryCompTable">
+       <div class="slds-card__body">
+                    <section class="slds-card__body">
+                        <div class="slds-scrollable--x">
+                            <table class="slds-table slds-table--bordered slds-max-medium-table--stacked" >
+              <thead>
+                <tr class="slds-text-title_caps" >
+                    <td scope="col" class="slds-is-sortable slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="activityID">Activity ID</div>
+      				</td>
+                    <td scope="col" class="slds-is-sortable slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate"  title="Date">Date</div>
+      				</td>
+                    <td scope="col" class="slds-is-sortable slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="time">Records Modified</div>
+      				</td>
+                    <td scope="col" class="slds-is-sortable slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="Triggered By">Triggered By</div>
+      				</td>
+                  </tr>
+                </thead>
+                <tbody>
+                     <aura:iteration items="{!v.gridData.activityhistory}" var="row" indexVar="index">
+                     <tr class="">
+                            <td data-label="activityID" scope="col" class="slds-p-horizontal_small slds-size_2-of-12 slds-medium-size_2-of-12 slds-large-size_2-of-12 slds-text-align_center slds-cell-buffer_left ">
+                               <div class="slds-form-element">
+                                <div class="slds-truncate" title="{!row.id}">
+                                    <a href="javascript:void(0);" aria-describedby="{!row.id+'_sd'}" label="{!row.id}" onmouseover="{!c.objectInfoMouseOver}" onmouseleave="{!c.objectInfoMouseLeave}" onclick="{!c.navigateToMyComponent}" name="{!row.id}" >{!row.id}</a>
+                                   </div>
+                                </div>
+                              
+                            </td>
+                         
+                            <td data-label="user" scope="col" class="slds-p-horizontal_small slds-size_4-of-12 slds-medium-size_4-of-12 slds-large-size_4-of-12 slds-text-align_center slds-cell-buffer_left">
+                                <div class="" title="{!row.date}">{!row.date}</div>
+                            </td>
+                           <td data-label="records" scope="col" class="slds-text-align_center slds-cell-buffer_left">
+                                <div class="slds-truncate" title="{!row.records}">{!row.records}</div>
+                            </td>
+                           <td data-label="user" scope="col" class="slds-p-horizontal_small slds-size_2-of-12 slds-medium-size_2-of-12 slds-large-size_2-of-12 slds-text-align_center slds-cell-buffer_left">
+                                <div class="slds-truncate" title="{!row.triggeredby}">{!row.triggeredby}</div>
+                            </td>
+                      </tr>
+                    
+                    </aura:iteration>
+                </tbody>
+                </table>
+                        </div>
+           </section>
+        </div>
+            </div>
+</div>
+</aura:component>

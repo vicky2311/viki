@@ -1,0 +1,44 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+	
+	
+	<div class="slds-m-vertical_x-small">
+         <article class="slds-card" id="card2">
+        <div class="slds-card__header slds-wrap slds-grid_pull-padded">
+            <div class="slds-container_small">
+	    
+    	    <legend id="legend1" class="slds-text-heading--medium 
+      						slds-p-vertical--small">Backup Status
+    		</legend>
+            <div class="slds-scrollable ">
+                <table role="grid" class="slds-table slds-table_fixed-layout 
+                                      slds-table_resizable-cols slds-no-row-hover 
+                                      slds-scrollable_none slds-table_cell-buffer" style="width: 100%;">
+              <tr>
+                  <td scope="col" style="width:4.75rem;" class="slds-text-heading--small">06/21/2017
+                  </td>
+                <td scope="col" style="width:4.75rem;" class="slds-text-align_center ">:Next scheduled backup
+                  </td>
+                
+                </tr>
+                <tr>
+                  <td scope="col" style="width:4.75rem;" class="slds-text-heading--small">06/20/2017
+                  </td>
+                <td scope="col" style="width:4.75rem;" class="slds-text-align_center ">:Previous backup
+                  </td>
+                
+                </tr>
+                    <tr>
+                  <td scope="col" style="width:4.75rem;" class="slds-text-heading--small">Success
+                  </td>
+                <td scope="col" style="width:4.75rem;" class="slds-text-align_center ">:Previous backup status
+                  </td>
+                
+                </tr>
+                </table>
+            </div>
+             </div>
+             </div>
+        </article>
+    </div>
+        
+</aura:component>

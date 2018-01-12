@@ -1,0 +1,5 @@
+({
+	olympicData : function(component, filters) {
+        
+	}
+})

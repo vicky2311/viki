@@ -1,0 +1,14 @@
+<aura:component >
+	<lightning:input type="toggle" label="Toggle value" name="togglevalue" checked="true" />
+    <lightning:input type="checkbox" label="Red" name="red" checked="true"/>
+	<lightning:input type="checkbox" label="Blue" name="blue" />
+	<lightning:input type="file" label="Attachment" name="file" multiple="true" accept="image/png, .zip" onchange="{! c.handleFilesChange }"/>
+    <lightning:button label="Refresh" />
+    <lightning:buttonMenu alternativeText="Toggle menu">
+        <lightning:menuItem label="Menu Item 1" value="menuitem1" iconName="utility:table" />
+        <lightning:menuItem label="Menu Item 2" value="menuitem2" iconName="utility:table" />
+        <lightning:menuItem label="Menu Item 3" value="menuitem3" iconName="utility:table" />
+    </lightning:buttonMenu>
+
+	
+</aura:component>

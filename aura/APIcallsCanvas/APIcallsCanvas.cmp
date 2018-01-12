@@ -1,0 +1,13 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global" >
+	
+    <ltng:require scripts="{!join(',',
+    				$Resource.ChartJS23, 
+    				$Resource.OlympicDataService)}"
+					afterScriptsLoaded="{!c.scriptsLoaded}" />
+
+	<aura:attribute name="percent" type="Integer" default="70"/>  
+    <div>
+	    <canvas aura:id="chart" height="70" width="50"></canvas>
+    </div>
+    
+</aura:component>

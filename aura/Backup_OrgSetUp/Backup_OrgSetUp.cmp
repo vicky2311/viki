@@ -1,0 +1,32 @@
+<aura:component >
+
+ <div class="slds-grid slds-p-top_medium">
+     <div class="slds-col cell" >
+     	<div class="slds-form-element">
+  			<label class="slds-form-element__label" for="input-unique-id">Org Title</label>
+  			<div class="slds-form-element__control">
+      			<input type="text" id="org-title" class="slds-input" placeholder="Salesforce_Trial1"/>
+  			</div>
+		</div>
+     </div>
+     <div class="slds-col cell">
+     	<div class="slds-form-element">
+  			<label class="slds-form-element__label" for="input-unique-id">Password</label>
+  			<div class="slds-form-element__control">
+                <input type="password" id="password" class="slds-input" placeholder="********"/>
+  			</div>
+		</div>
+     </div>
+     <div class="slds-col cell">
+     	<div class="slds-form-element">
+  			<label class="slds-form-element__label" for="input-unique-id">Security Token</label>
+  			<div class="slds-form-element__control">
+                <input type="password" id="security-token" class="slds-input" placeholder="**********"/>
+  			</div>
+		</div>
+    </div>
+     <div class="slds-col cellicon">
+     <lightning:icon iconName="action:approval" size="xx-small" alternativeText="Indicates approval"/>
+     </div>
+    </div>
+</aura:component>

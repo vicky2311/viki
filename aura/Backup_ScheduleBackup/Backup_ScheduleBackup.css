@@ -1,0 +1,12 @@
+.THIS table{
+    width:50rem;
+}
+.THIS .cell{
+    padding-right:1rem;
+    padding-top:1rem;
+}
+.THIS .title{
+    font-weight: bold!important;
+}
+.THIS input{
+}

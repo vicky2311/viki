@@ -1,0 +1,7 @@
+<aura:component controller="BackupHistoryService" implements="flexipage:availableForAllPageTypes" access="global">
+    <aura:attribute name="gridData" type="Object"/>    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>  
+    <div class="fullComp" >
+        <c:ActivityHistoryComp />
+    </div>
+</aura:component>

@@ -1,0 +1,3 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,force:hasRecordId" access="global">
+    <iframe src="{! 'https://sindhumadhuri-dev-ed--c.na33.visual.force.com/apex/pieExamplepage'}" width="100%" height="500px;" frameBorder="0"/>
+</aura:component>

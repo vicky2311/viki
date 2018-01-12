@@ -1,0 +1,37 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <div class=" slds-p-top_medium schedulebackup">
+    <div class="slds-text-heading_medium slds-align_absolute-center title">Schedule Backup</div>
+        <div class="slds-align_absolute-center">
+	<table>
+    	<tr>
+        	<td class="cell">
+                Backup Frequency
+            </td>
+            <td class="cell">
+               <input type="text" id="org-title" class="slds-input" placeholder=" "/>
+            </td>
+            <td class="cell">
+            	Backup day of the week
+            </td>
+            <td class="cell">
+               <input type="text" id="org-title" class="slds-input" placeholder=" "/>
+            </td>
+        </tr>
+        <tr>
+        	<td class="cell">
+                Backup Date
+            </td>
+            <td class="cell">
+               <ui:inputDate aura:id="expdate" label=" " class="field" displayDatePicker="true" />      
+            </td>
+            <td class="cell">
+            	Backup time
+            </td>
+            <td class="cell">
+               <lightning:input type="time" label=" " name="time" />
+            </td>
+        </tr>
+    </table>
+        </div>
+    </div>
+</aura:component>

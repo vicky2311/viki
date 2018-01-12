@@ -1,0 +1,7 @@
+.THIS .configpage{
+    margin:0px;
+}
+.THIS .widthlevel{
+    width: calc(33% - 1rem / 3);
+    float:left;
+}

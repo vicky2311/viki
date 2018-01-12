@@ -1,0 +1,43 @@
+<aura:component controller="BackupHistoryService" implements="flexipage:availableForAllPageTypes" access="global">
+	<aura:attribute name="listData" type="Object"/> 
+    
+   <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>  
+    <div class="tree-container onesetupTree onesetupSetupTree" data-aura-class="onesetupTree onesetupSetupTree">
+		<div class="tree-filter-container">
+            <input type="text" class="slds-input slds-combobox__input" id="combobox-unique-id" aria-autocomplete="list" aria-controls="listbox-unique-id" autocomplete="off" role="textbox" placeholder="Quick Find"/>
+        </div>
+        <br/>
+			<div class="leftpanel slds-scrollable_y style-1">
+				<ul class="tree setup-tree slds-scrollable_y style-1">
+                   <aura:iteration items="{!v.listData.Orgslist}" var="row" indexVar="index">
+				 <li>
+ <div class="demo-only">
+  <a href="javascript:void(0);" class="slds-box slds-box_link slds-box_x-small slds-media">
+    <div class="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center slds-m-left_xx-small">
+    <span class="slds-icon_container slds-icon-utility-knowledge_base" title="Authentication Status">   
+    <aura:if isTrue="{!row.status == 'sucess'}">
+      <lightning:icon iconName="action:approval" size="small" alternativeText="Sucess"/>
+     <aura:set attribute="else">
+       <lightning:icon iconName="action:close" size="small" alternativeText="Failed"/>
+     </aura:set>
+    </aura:if> 
+        <span class="slds-assistive-text">{!row.status}</span>
+      </span>
+    </div>
+    <div class="slds-media__body slds-border_left slds-p-around_small">
+      <h2 class="slds-truncate slds-text-heading_small" title="Share the knowledge">{!row.name}</h2>
+      <p class="slds-m-top_small">{!row.desc}</p>
+    </div>
+   <div class="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center slds-m-right_xx-small">
+    <span class="slds-icon_container slds-icon-utility-knowledge_base" title="Authentication Status">   
+        <c:APIcallsCanvas percent="50"/>
+     </span>
+    </div>
+  </a>
+</div>
+    </li>
+</aura:iteration>
+				</ul>
+			</div>
+		</div>
+ </aura:component>

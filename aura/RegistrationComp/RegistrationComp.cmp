@@ -1,0 +1,16 @@
+<aura:component >
+    <dl>
+        <dt>
+    <lightning:select name="selectItem" aura:id="selectItem" label="Select an item" onchange="{!c.displayOnSelect}">
+        <option value="">choose one...</option>
+        <option value="1">one</option>
+        <option value="2">two</option>
+    </lightning:select>
+        </dt>
+        <dt>
+        	<div class="slds-hide" aura:id="showOptions">
+          		show now  
+            </div>
+        </dt>
+    </dl>
+</aura:component>

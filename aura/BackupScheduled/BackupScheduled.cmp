@@ -1,0 +1,28 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global">
+    <aura:attribute name="backupFreq" type="Integer" />
+    <div class="slds-form slds-form_horizontal">
+  	<div class="slds-form-element">
+    	<label class="slds-form-element__label" for="backupFreqText">Backup Frequency</label>
+    	<div class="slds-form-element__control">
+            <div class="slds-form-element">
+                <div class="slds-float_right">
+        		<lightning:select aura:id="backupFreq" class="slds-form-element__control" name="backupFreq" label="" >
+    		<option value="Daily" text="Daily"></option>
+    		<option value="Weekly" text="Weekly"></option>
+    		<option value="Monthly" text="Monthly"></option>
+			</lightning:select>
+                </div>       
+            	<lightning:select aura:id="backupFreq" class="slds-form-element__control" name="backupFreq" label="" >
+    		<option value="Daily" text="Daily"></option>
+    		<option value="Weekly" text="Weekly"></option>
+    		<option value="Monthly" text="Monthly"></option>
+			</lightning:select>
+            </div>
+        </div>
+   </div>
+        
+    <div class="slds-form-element">
+    <label class="slds-form-element__label" for="input-id-02">Textarea Label</label>
+        </div>
+    </div>
+</aura:component>

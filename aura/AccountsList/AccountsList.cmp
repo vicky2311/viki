@@ -1,0 +1,18 @@
+<aura:component controller="TestRemoteSite" implements="force:appHostable,force:lightningQuickAction,flexipage:availableForRecordHome,flexipage:availableForAllPageTypes,force:hasRecordId" access="global">
+	<aura:attribute name="accounts" type="Object[]" />
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <table>
+        <tr>
+            <th> Account List  </th>
+        </tr>
+          <aura:iteration items="{!v.accounts}" var="acc">  
+            <tr>
+                <td>
+                    	{!v.acc}
+                 </td> <br/>           
+                          
+         	</tr>   
+         </aura:iteration> 
+          
+	</table>    	
+</aura:component>

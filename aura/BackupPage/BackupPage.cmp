@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+	<c:Backup_OrgSetUp />
+    <c:Backup_SelectObjFields />
+    <c:Backup_ScheduleBackup />
+</aura:component>

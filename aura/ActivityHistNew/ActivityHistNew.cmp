@@ -1,0 +1,243 @@
+<aura:component controller="BackupHistoryService" implements="flexipage:availableForAllPageTypes" access="global"> 
+   <aura:attribute name="Id" type="String"/> 
+    <div class="slds-m-top_x-small">
+       <div class="slds-m-right_x-small slds-m-left_x-small slds-m-bottom_x-small">
+                   <article class="slds-card header effect1">
+ 						<div class="slds-card__header">
+                            
+               					 <h2>
+                                     <div class="slds-m-bottom_x-small">
+          							<a href="javascript:void(0);" class="slds-card__header-link slds-truncate" title="[object Object]">
+            							<span class="slds-text-heading_small">Activity History </span>
+          							</a>
+                                     </div>
+        						</h2>
+                            
+                     <div class=" slds-grid">
+                           <div class="slds-col slds-border_right">
+                       			<div>API Calls Consumed : 2045</div>
+                                <div>Date : 23rd-June 2017</div>
+                           </div>
+                           <div class="slds-col slds-p-left_medium">  
+                                <div>Total Objects count : 10 </div>
+                                <div>Total Records count : 104,534 </div>
+                           </div>
+                       </div> 
+                	</div>
+                   </article>
+                </div>
+       
+    </div>
+    <div class=" slds-m-top_x-small slds-m-bottom_x-small slds-m-left_x-small slds-m-right_x-small">
+        <div class="slds-scrollable slds-grow">
+           <div class="slds-m-vertical_x-medium slds-m-bottom_medium">
+              <lightning:input type="search" class="slds-m-right_x-small slds-m-left_x-small" label=" " placeholder="Quick Find" aura:id="quickfind" name="search" onchange="{!c.quickFind}"/>	
+            </div>
+               <table role="grid" class="slds-table slds-table_fixed-layout slds-table_bordered 
+                                      slds-table_resizable-cols slds-no-row-hover slds-table_striped
+                                      slds-scrollable_none slds-table_cell-buffer" style="width: 100%;">
+              <thead>
+                <tr class="slds-text-title_caps" >
+                    <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="objName">Object Name</div>
+      				</td>
+                    <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate"  title="fieldName">Fields Count</div>
+      				</td>
+                    <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="prevValue">Records Backuped</div>
+      				</td>
+                    <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="curValue">API Calls Used</div>
+      				</td>
+                  </tr>
+                  
+                </thead>
+                <tbody aura:id="container">
+                    <tr>
+                  	<td data-label="activityID" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="objName1">Account</div>
+      				</td>
+                    <td data-label="user" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="fieldName1">20</div>
+      				</td>
+                    <td data-label="time" class="slds-text-align_center slds-cell-buffer_left">
+                        <div class="slds-truncate" title="prevValue1">138,173</div>
+      				</td>
+                      <td data-label="status" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="curValue1">2,000</div>
+      				</td>
+                  </tr>
+                     <tr>
+                  	<td data-label="activityID" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="objName1">Account</div>
+      				</td>
+                    <td data-label="user" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="fieldName1">20</div>
+      				</td>
+                    <td data-label="time" class="slds-text-align_center slds-cell-buffer_left">
+                        <div class="slds-truncate" title="prevValue1">138,173</div>
+      				</td>
+                      <td data-label="status" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="curValue1">2,000</div>
+      				</td>
+                  </tr>
+                      <tr>
+                  	<td data-label="activityID" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="objName1">Account</div>
+      				</td>
+                    <td data-label="user" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="fieldName1">20</div>
+      				</td>
+                    <td data-label="time" class="slds-text-align_center slds-cell-buffer_left">
+                        <div class="slds-truncate" title="prevValue1">138,173</div>
+      				</td>
+                      <td data-label="status" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="curValue1">2,000</div>
+      				</td>
+                  </tr>
+                      <tr>
+                  	<td data-label="activityID" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="objName1">Account</div>
+      				</td>
+                    <td data-label="user" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="fieldName1">20</div>
+      				</td>
+                    <td data-label="time" class="slds-text-align_center slds-cell-buffer_left">
+                        <div class="slds-truncate" title="prevValue1">138,173</div>
+      				</td>
+                      <td data-label="status" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="curValue1">2,000</div>
+      				</td>
+                  </tr>
+                      <tr>
+                  	<td data-label="activityID" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="objName1">Account</div>
+      				</td>
+                    <td data-label="user" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="fieldName1">20</div>
+      				</td>
+                    <td data-label="time" class="slds-text-align_center slds-cell-buffer_left">
+                        <div class="slds-truncate" title="prevValue1">138,173</div>
+      				</td>
+                      <td data-label="status" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="curValue1">2,000</div>
+      				</td>
+                  </tr>  <tr>
+                  	<td data-label="activityID" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="objName1">Account</div>
+      				</td>
+                    <td data-label="user" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="fieldName1">20</div>
+      				</td>
+                    <td data-label="time" class="slds-text-align_center slds-cell-buffer_left">
+                        <div class="slds-truncate" title="prevValue1">138,173</div>
+      				</td>
+                      <td data-label="status" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="curValue1">2,000</div>
+      				</td>
+                  </tr>
+                      <tr>
+                  	<td data-label="activityID" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="objName1">Account</div>
+      				</td>
+                    <td data-label="user" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="fieldName1">20</div>
+      				</td>
+                    <td data-label="time" class="slds-text-align_center slds-cell-buffer_left">
+                        <div class="slds-truncate" title="prevValue1">138,173</div>
+      				</td>
+                      <td data-label="status" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="curValue1">2,000</div>
+      				</td>
+                  </tr>
+                      <tr>
+                  	<td data-label="activityID" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="objName1">Account</div>
+      				</td>
+                    <td data-label="user" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="fieldName1">20</div>
+      				</td>
+                    <td data-label="time" class="slds-text-align_center slds-cell-buffer_left">
+                        <div class="slds-truncate" title="prevValue1">138,173</div>
+      				</td>
+                      <td data-label="status" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="curValue1">2,000</div>
+      				</td>
+                  </tr>
+                      <tr>
+                  	<td data-label="activityID" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="objName1">Account</div>
+      				</td>
+                    <td data-label="user" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="fieldName1">20</div>
+      				</td>
+                    <td data-label="time" class="slds-text-align_center slds-cell-buffer_left">
+                        <div class="slds-truncate" title="prevValue1">138,173</div>
+      				</td>
+                      <td data-label="status" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="curValue1">2,000</div>
+      				</td>
+                  </tr>
+                      <tr>
+                  	<td data-label="activityID" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="objName1">Account</div>
+      				</td>
+                    <td data-label="user" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="fieldName1">20</div>
+      				</td>
+                    <td data-label="time" class="slds-text-align_center slds-cell-buffer_left">
+                        <div class="slds-truncate" title="prevValue1">138,173</div>
+      				</td>
+                      <td data-label="status" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="curValue1">2,000</div>
+      				</td>
+                  </tr>
+                      <tr>
+                  	<td data-label="activityID" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="objName1">Account</div>
+      				</td>
+                    <td data-label="user" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="fieldName1">20</div>
+      				</td>
+                    <td data-label="time" class="slds-text-align_center slds-cell-buffer_left">
+                        <div class="slds-truncate" title="prevValue1">138,173</div>
+      				</td>
+                      <td data-label="status" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="curValue1">2,000</div>
+      				</td>
+                  </tr>
+                      <tr>
+                  	<td data-label="activityID" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="objName1">Account</div>
+      				</td>
+                    <td data-label="user" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="fieldName1">20</div>
+      				</td>
+                    <td data-label="time" class="slds-text-align_center slds-cell-buffer_left">
+                        <div class="slds-truncate" title="prevValue1">138,173</div>
+      				</td>
+                      <td data-label="status" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="curValue1">2,000</div>
+      				</td>
+                  </tr>
+                      <tr>
+                  	<td data-label="activityID" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="objName1">Account</div>
+      				</td>
+                    <td data-label="user" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="fieldName1">20</div>
+      				</td>
+                    <td data-label="time" class="slds-text-align_center slds-cell-buffer_left">
+                        <div class="slds-truncate" title="prevValue1">138,173</div>
+      				</td>
+                      <td data-label="status" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="curValue1">2,000</div>
+      				</td>
+                  </tr>
+                </tbody>
+                </table>
+            </div>
+    </div>
+                            
+</aura:component>

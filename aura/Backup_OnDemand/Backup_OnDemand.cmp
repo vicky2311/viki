@@ -1,0 +1,20 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+	<fieldset class="slds-box slds-theme--default slds-container--medium">
+        <legend id="legend1" class="slds-text-heading--medium slds-p-vertical--medium">On-Demand Backup</legend>
+    	<p>Take a backup of entire data in the Org</p>
+        <div class="slds-form slds-form_horizontal">
+  			<div class="slds-form-element">
+    			<label class="slds-form-element__label" for="onDemand">Label your On-Demand Backup</label>
+    			<div class="slds-form-element__control">
+                    <input type="text" id="onDemand" class="slds-input" placeholder=""/>
+                </div>
+            </div>
+            <div class="slds-form-element">
+    			<label class="slds-form-element__label" for="onDemand"></label>
+    			<div class="slds-form-element__control">
+                    <lightning:button variant="brand" label="Force On-Demand Backup now" iconName="utility:chevronright" iconPosition="right" onclick="{! c.handleClick }" />
+                </div>
+            </div>
+        </div>
+    </fieldset>
+</aura:component>

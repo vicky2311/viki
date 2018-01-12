@@ -1,0 +1,8 @@
+@media(max-width:700px){
+    .THIS .responsiveHide{
+        display : none !important;
+    }
+}
+.THIS .griddata{
+    height:500px !important;
+}

@@ -1,0 +1,27 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    
+    <div class="slds-grid">
+  <div class="slds-col card1" style="height: inherit;">
+	<div class="slds-m-left_x-small card1"  style="height: 100%;">
+        <article class="slds-card card1"  style="height: 100%;">
+        <div class="slds-card__header slds-wrap slds-grid_pull-padded">
+            <div class="slds-container_small">
+                <legend id="legend1" class="slds-text-heading--medium 
+      						slds-p-vertical--small">Backup Overview
+    		</legend>
+                <div class="slds-text-longform">
+                   
+  <ul>
+      <li>Accounts</li>
+      <li>Contacts</li>
+      <li>Leads</li>
+      <li>Opportunities</li>
+      </ul>
+                </div>
+            </div>
+             </div>
+        </article>
+      </div>
+        </div>
+    </div>
+</aura:component>

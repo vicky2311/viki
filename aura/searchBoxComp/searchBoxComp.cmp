@@ -1,0 +1,19 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <div class="slds-m-left_x-small">
+        <div class="slds-m-top_x-small">
+    <article class="slds-card">
+        <div class="slds-card__header slds-wrap slds-grid_pull-padded">
+            <div class="slds-container_small">
+            <header class="slds-has-flexi-truncate">
+            <p>Search box to search for Salesforce backups in terms of objects or file names.</p>
+            </header>
+            <div class="slds-card__body slds-card__body_inner">
+                <lightning:input type="search" label="Search" name="search" />
+
+        </div>
+        </div>
+        </div>
+    </article>
+    </div>
+    </div>
+</aura:component>

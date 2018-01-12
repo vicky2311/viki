@@ -1,0 +1,32 @@
+<aura:component >
+	<div class="slds-form-element"/>
+                     <div class="slds-form-element__control">
+
+            			<lightning:select name="objects" aura:id="objects" label="" onchange="{!c.displayFreqOptions}">
+                        	<option value="obj1">Accounts</option>
+            			</lightning:select>
+                	 </div> 
+            
+            <div class="slds-form-element"/>
+                <div class="slds-form-element__control">
+            		<lightning:select name="name" aura:id="name" label="" onchange="{!c.displayFreqOptions}">
+                        <option value="name1">Name</option>
+            		</lightning:select>
+                </div>
+                <div class="slds-form-element"/>
+                <div class="slds-form-element__control">
+            		<lightning:select name="filter" aura:id="filter" label="" onchange="{!c.displayFreqOptions}">
+                        <option value="obj1">Filter by Field</option>
+           			</lightning:select>
+                </div>
+                <div class="slds-form-element"/>
+                <div class="slds-form-element__control">
+            		<lightning:input type="search" label=" " name="search" placeholder="Search"/>
+                </div>
+                <div class="slds-form-element"/>
+                <div class="slds-form-element__control">
+                    <div class="slds-p-top_medium">
+                    <lightning:button variant="brand" name="go" label="Go" />
+                </div>
+                </div>
+	</aura:component>

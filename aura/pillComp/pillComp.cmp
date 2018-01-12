@@ -1,0 +1,8 @@
+<aura:component >
+      <span class="slds-pill slds-pill_link">
+         <a href="javascript:void(0);" class="slds-pill__action" title="Full pill label verbiage mirrored here">
+            <span class="slds-pill__label">1</span>
+         </a>
+       <lightning:button iconName="utility:close" onclick="{!c.selfDelete}"/>
+      </span>
+</aura:component>

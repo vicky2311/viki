@@ -1,0 +1,47 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+	<div class="componentborder">
+        <legend id="legend1" class="slds-text-heading--medium ">Recovery Point Objective</legend>
+        <div class="slds-form ">
+  			<div class="slds-form-element">
+    			<label class="slds-form-element__label" for="LabelRPO">Label your Recovery Point Objective</label>
+            	<div class="slds-form-element__control">
+                    <input type="text" id="LabelRPO" class="slds-input" placeholder=""/>
+                </div>
+            </div>
+            <div class="slds-form-element">
+    			<label class="slds-form-element__label" for="selectUser">Select user</label>
+            	<div class="slds-form-element__control">
+                    <select class="slds-select" id="selectUser">
+                    	<option> User 1</option>
+                        <option> User 2</option>
+                        <option> User 3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="slds-form-element">
+    			<label class="slds-form-element__label" for="selectTime">Select time</label>
+            	<div class="slds-form-element__control">
+                    <div class="slds-grid">
+                       <div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_3-of-12 slds-large-size_3-of-12">
+                            <lightning:input type="time" label="From" name="time" />
+                       </div>
+                       <div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_3-of-12 slds-large-size_3-of-12">
+        	               <lightning:input type="time" label="To" name="time" />
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="slds-grid sdls-wrap">
+                   <div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12">
+                          <c:objectsList />
+                    </div>
+                    <div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12">
+                        <c:fieldsList />
+                    </div>
+                </div>
+        </div>
+        <div class="slds-align_absolute-center">
+            <lightning:button variant="brand" label="Confirm Changes" iconName="utility:chevronright" iconPosition="right" onclick="{! c.handleClick }" />
+        </div>
+    </div>
+</aura:component>

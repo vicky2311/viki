@@ -1,0 +1,53 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+	<div class="slds-p-horizontal_small slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_4-of-12 slds-border_left">
+		<div class="slds-float_left slds-m-vertical_x-medium">
+    	      <legend id="legend1" class="">
+                  Activity Details
+    		  </legend>
+           </div>
+        <table class="slds-table slds-table_cell-buffer">
+  		<tbody>
+            <tr>
+      		<td data-label="FeedItems">
+                <div class="slds-truncate" title="FeedItems">Objects Count</div>
+      		</td>
+      		<td data-label="FeedItemsInput">
+        		<div class="slds-truncate" title="FeedItems">: 30</div>
+      		</td>
+      	</tr>
+            <tr>
+      		<td data-label="SharedTables">
+                <div class="slds-truncate" title="SharedTables">Fields Count</div>
+      		</td>
+      		<td data-label="SharedTablesInput">
+        		<div class="slds-truncate" title="FeedItems">: 250</div>
+      		</td>
+      	</tr>
+            <tr>
+      		<td data-label="SharedTables">
+                <div class="slds-truncate" title="SharedTables">API Calls</div>
+      		</td>
+      		<td data-label="SharedTablesInput">
+        		<div class="slds-truncate" title="FeedItems">1200</div>
+      		</td>
+      	</tr>
+            <tr>
+      		<td data-label="SharedTables">
+                <div class="slds-truncate" title="SharedTables">Info 1</div>
+      		</td>
+      		<td data-label="SharedTablesInput">
+        		<div class="slds-truncate" title="FeedItems">All Details</div>
+      		</td>
+      	</tr>
+            <tr>
+      		<td data-label="SharedTables">
+                <div class="slds-truncate" title="SharedTables">Info 2</div>
+      		</td>
+      		<td data-label="SharedTablesInput">
+        		<div class="slds-truncate" title="FeedItems">All Details</div>
+      		</td>
+      	</tr>
+         </tbody>
+        </table>
+        </div>
+</aura:component>

@@ -1,0 +1,153 @@
+<aura:component >
+ <ul>
+<li>
+ <div class="demo-only" style="width: 24rem;">
+  <a href="javascript:void(0);" class="slds-box slds-box_link slds-box_x-small slds-media">
+    <div class="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center slds-m-left_xx-small">
+      <span class="slds-icon_container slds-icon-utility-knowledge_base" title="Description of icon when needed">
+         <lightning:icon iconName="action:approval" size="small" alternativeText="Indicates approval"/>
+        <span class="slds-assistive-text">Description of icon</span>
+      </span>
+    </div>
+    <div class="slds-media__body slds-border_left slds-p-around_small">
+      <h2 class="slds-truncate slds-text-heading_small" title="Share the knowledge">Share the knowledge</h2>
+      <p class="slds-m-top_small">Harness your team's collective know-how with our powerful knowledge base</p>
+    </div>
+  </a>
+</div>
+    </li><li>
+ <div class="demo-only" style="width: 24rem;">
+  <a href="javascript:void(0);" class="slds-box slds-box_link slds-box_x-small slds-media">
+    <div class="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center slds-m-left_xx-small">
+      <span class="slds-icon_container slds-icon-utility-knowledge_base" title="Description of icon when needed">
+         <lightning:icon iconName="action:approval" size="small" alternativeText="Indicates approval"/>
+        <span class="slds-assistive-text">Description of icon</span>
+      </span>
+    </div>
+    <div class="slds-media__body slds-border_left slds-p-around_small">
+      <h2 class="slds-truncate slds-text-heading_small" title="Share the knowledge">Share the knowledge</h2>
+      <p class="slds-m-top_small">Harness your team's collective know-how with our powerful knowledge base</p>
+    </div>
+  </a>
+</div>
+    </li><li>
+ <div class="demo-only" style="width: 24rem;">
+  <a href="javascript:void(0);" class="slds-box slds-box_link slds-box_x-small slds-media">
+    <div class="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center slds-m-left_xx-small">
+      <span class="slds-icon_container slds-icon-utility-knowledge_base" title="Description of icon when needed">
+         <lightning:icon iconName="action:approval" size="small" alternativeText="Indicates approval"/>
+        <span class="slds-assistive-text">Description of icon</span>
+      </span>
+    </div>
+    <div class="slds-media__body slds-border_left slds-p-around_small">
+      <h2 class="slds-truncate slds-text-heading_small" title="Share the knowledge">Share the knowledge</h2>
+      <p class="slds-m-top_small">Harness your team's collective know-how with our powerful knowledge base</p>
+    </div>
+  </a>
+</div>
+    </li><li>
+ <div class="demo-only" style="width: 24rem;">
+  <a href="javascript:void(0);" class="slds-box slds-box_link slds-box_x-small slds-media">
+    <div class="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center slds-m-left_xx-small">
+      <span class="slds-icon_container slds-icon-utility-knowledge_base" title="Description of icon when needed">
+         <lightning:icon iconName="action:approval" size="small" alternativeText="Indicates approval"/>
+        <span class="slds-assistive-text">Description of icon</span>
+      </span>
+    </div>
+    <div class="slds-media__body slds-border_left slds-p-around_small">
+      <h2 class="slds-truncate slds-text-heading_small" title="Share the knowledge">Share the knowledge</h2>
+      <p class="slds-m-top_small">Harness your team's collective know-how with our powerful knowledge base</p>
+    </div>
+  </a>
+</div>
+    </li><li>
+ <div class="demo-only" style="width: 24rem;">
+  <a href="javascript:void(0);" class="slds-box slds-box_link slds-box_x-small slds-media">
+    <div class="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center slds-m-left_xx-small">
+      <span class="slds-icon_container slds-icon-utility-knowledge_base" title="Description of icon when needed">
+         <lightning:icon iconName="action:approval" size="small" alternativeText="Indicates approval"/>
+        <span class="slds-assistive-text">Description of icon</span>
+      </span>
+    </div>
+    <div class="slds-media__body slds-border_left slds-p-around_small">
+      <h2 class="slds-truncate slds-text-heading_small" title="Share the knowledge">Share the knowledge</h2>
+      <p class="slds-m-top_small">Harness your team's collective know-how with our powerful knowledge base</p>
+    </div>
+  </a>
+</div>
+    </li><li>
+ <div class="demo-only" style="width: 24rem;">
+  <a href="javascript:void(0);" class="slds-box slds-box_link slds-box_x-small slds-media">
+    <div class="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center slds-m-left_xx-small">
+      <span class="slds-icon_container slds-icon-utility-knowledge_base" title="Description of icon when needed">
+         <lightning:icon iconName="action:approval" size="small" alternativeText="Indicates approval"/>
+        <span class="slds-assistive-text">Description of icon</span>
+      </span>
+    </div>
+    <div class="slds-media__body slds-border_left slds-p-around_small">
+      <h2 class="slds-truncate slds-text-heading_small" title="Share the knowledge">Share the knowledge</h2>
+      <p class="slds-m-top_small">Harness your team's collective know-how with our powerful knowledge base</p>
+    </div>
+  </a>
+</div>
+    </li><li>
+ <div class="demo-only" style="width: 24rem;">
+  <a href="javascript:void(0);" class="slds-box slds-box_link slds-box_x-small slds-media">
+    <div class="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center slds-m-left_xx-small">
+      <span class="slds-icon_container slds-icon-utility-knowledge_base" title="Description of icon when needed">
+         <lightning:icon iconName="action:approval" size="small" alternativeText="Indicates approval"/>
+        <span class="slds-assistive-text">Description of icon</span>
+      </span>
+    </div>
+    <div class="slds-media__body slds-border_left slds-p-around_small">
+      <h2 class="slds-truncate slds-text-heading_small" title="Share the knowledge">Share the knowledge</h2>
+      <p class="slds-m-top_small">Harness your team's collective know-how with our powerful knowledge base</p>
+    </div>
+  </a>
+</div>
+    </li>
+<li>
+ <div class="demo-only" style="width: 24rem;">
+  <a href="javascript:void(0);" class="slds-box slds-box_link slds-box_x-small slds-media">
+    <div class="slds-media__figure slds-media__figure_fixed-width slds-align_absolute-center slds-m-left_xx-small">
+      <span class="slds-icon_container slds-icon-utility-knowledge_base" title="Description of icon when needed">
+         <lightning:icon iconName="action:approval" size="small" alternativeText="Indicates approval"/>
+        <span class="slds-assistive-text">Description of icon</span>
+      </span>
+    </div>
+    <div class="slds-media__body slds-border_left slds-p-around_small">
+      <h2 class="slds-truncate slds-text-heading_small" title="Share the knowledge">Share the knowledge</h2>
+      <p class="slds-m-top_small">Harness your team's collective know-how with our powerful knowledge base</p>
+    </div>
+  </a>
+</div>
+    </li>
+
+</ul>
+<div style="padding-left: 2rem; padding-top: 5rem; position: relative;">
+      <a class="" onmouseover="{!c.objectInfoMouseOver}" aria-describedby="1000_sd" title="Help">
+          Leela
+      </a>
+  <div class="slds-popover slds-popover_tooltip slds-nubbin_bottom-left slds-fall-into-ground" role="tooltip" aura:id="1000_sd" style="position: absolute; top: 0px; left: 15px;">
+    <div class="slds-popover__body">
+        <table>
+        	<tr>
+            	<td>Account</td><td>10</td>
+            </tr>
+        	<tr>
+            	<td>Cases</td><td>10</td>
+            </tr>
+        	<tr>
+            	<td>MAch</td><td>10</td>
+            </tr>
+        	<tr>
+            	<td>Doc</td><td>20</td>
+            </tr>
+        	<tr>
+            	<td>Event</td><td>10</td>
+            </tr>
+        </table>
+    </div>
+  </div>
+</div>
+</aura:component>

@@ -1,0 +1,17 @@
+<aura:component controller="TestRemoteSite" implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global" >
+	
+    <ltng:require scripts="{!join(',',
+    				$Resource.ChartJS23, 
+    				$Resource.OlympicDataService)}"
+					afterScriptsLoaded="{!c.scriptsLoaded}" />
+
+    <aura:attribute name="year" type="String"/>
+    <aura:attribute name="country" type="String"/>
+    <aura:attribute name="title" type="Object" default="API Calls Usage"/>
+    <aura:attribute name="jsonInput" type="String" default=""/>
+    <div>
+        <div class="slds-text-heading--medium">{!v.title}</div>
+	    <canvas aura:id="chart" height="100"></canvas>
+    </div>
+    
+</aura:component>

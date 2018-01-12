@@ -1,0 +1,282 @@
+<aura:component >
+	<div class="slds-grid">
+    	<div class="slds-col">
+        	<ui:inputDate aura:id="FromDate" label="From" class="field" displayDatePicker="true" />      
+        </div>
+        <div class="slds-col">
+        	<ui:inputDate aura:id="ToDate" label="To" class="field" displayDatePicker="true" />      
+        </div>
+        <div class="slds-col input_1">
+        	<input type="text" id="org-title" class="slds-input" placeholder="Select User"/>
+        </div>
+         <div class="slds-col input_1">
+        	<input type="text" id="org-title" class="slds-input" placeholder="Select Job"/>
+        </div>
+        <div class="slds-float_right slds-p-right_medium input_1">
+    	<lightning:buttonIcon iconName="utility:internal_share" alternativeText="Export"/>
+    </div>
+    </div>
+    
+    <div class=" slds-m-top_x-small slds-m-bottom_x-small slds-m-left_x-small slds-m-right_x-small">
+        <div class="slds-scrollable slds-grow">
+           
+               <table role="grid" class="slds-table slds-table_fixed-layout slds-table_bordered 
+                                      slds-table_resizable-cols slds-no-row-hover slds-table_striped
+                                      slds-scrollable_none slds-table_cell-buffer" style="width: 100%;">
+              <thead>
+                <tr class="slds-text-title_caps" >
+                    <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="jobID">Job ID</div>
+      				</td>
+                    <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate"  title="jobName">Job Name</div>
+      				</td>
+                    <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate"  title="date">Date</div>
+      				</td>
+                    <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="iniTime">Initiated Time</div>
+      				</td>
+                    <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="compTime">Time of Completion</div>
+      				</td>
+                    <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="trigBy">Triggered By</div>
+      				</td>
+                    <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="status">Status</div>
+      				</td>
+                  </tr>
+                   </thead>
+                   <tbody>
+                   		<tr>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="jobID"><a href="#">1001</a></div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate"  title="jobName">Protect</div>
+      						</td>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+                                <div class="slds-truncate"  title="date">05/06/2017</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="iniTime">11.00 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="compTime">11.10 am</div>
+      				</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="trigBy">User 1</div>
+      				</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="status">
+                        	<lightning:icon iconName="action:approval" size="xx-small" alternativeText="Indicates Success"/>
+                        </div>
+      				</td>
+                    	</tr>
+                       <tr>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="jobID"><a href="#">1001</a></div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate"  title="jobName">Field Search</div>
+      						</td>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+                                <div class="slds-truncate"  title="date">05/06/2017</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="iniTime">11.00 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="compTime">11.10 am</div>
+      				</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="trigBy">User 1</div>
+      				</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        				<div class="slds-truncate" title="status">
+                        	<lightning:icon iconName="action:approval" size="xx-small" alternativeText="Indicates Success"/>
+                        </div>
+      				</td>
+                    	</tr>
+                        <tr>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="jobID"><a href="#">1001</a></div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate"  title="jobName">Restore</div>
+      						</td>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+                                <div class="slds-truncate"  title="date">05/06/2017</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="iniTime">11.00 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="compTime">11.10 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="trigBy">User 1</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="status">
+                        			<lightning:icon iconName="action:approval" size="xx-small" alternativeText="Indicates Success"/>
+                        		</div>
+      						</td>
+                    	</tr>
+                       <tr>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="jobID"><a href="#">1001</a></div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate"  title="jobName">Field Tracking</div>
+      						</td>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+                                <div class="slds-truncate"  title="date">05/06/2017</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="iniTime">11.00 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="compTime">11.10 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="trigBy">User 1</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="status">
+                        			<lightning:icon iconName="action:approval" size="xx-small" alternativeText="Indicates Success"/>
+                        		</div>
+      						</td>
+                    	</tr>
+                       <tr>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="jobID"><a href="#">1001</a></div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate"  title="jobName">Backup Comparision</div>
+      						</td>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+                                <div class="slds-truncate"  title="date">05/06/2017</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="iniTime">11.00 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="compTime">11.10 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="trigBy">User 1</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="status">
+                        			<lightning:icon iconName="action:approval" size="xx-small" alternativeText="Indicates Success"/>
+                        		</div>
+      						</td>
+                    	</tr>
+                       <tr>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="jobID"><a href="#">1001</a></div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate"  title="jobName">Field Tracking</div>
+      						</td>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+                                <div class="slds-truncate"  title="date">05/06/2017</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="iniTime">11.00 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="compTime">11.10 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="trigBy">User 1</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="status">
+                        			<lightning:icon iconName="action:approval" size="xx-small" alternativeText="Indicates Success"/>
+                        		</div>
+      						</td>
+                    	</tr>
+                       <tr>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="jobID"><a href="#">1001</a></div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate"  title="jobName">Field Tracking</div>
+      						</td>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+                                <div class="slds-truncate"  title="date">05/06/2017</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="iniTime">11.00 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="compTime">11.10 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="trigBy">User 1</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="status">
+                        			<lightning:icon iconName="action:approval" size="xx-small" alternativeText="Indicates Success"/>
+                        		</div>
+      						</td>
+                    	</tr>
+                       <tr>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="jobID"><a href="#">1001</a></div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate"  title="jobName">Field Tracking</div>
+      						</td>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+                                <div class="slds-truncate"  title="date">05/06/2017</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="iniTime">11.00 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="compTime">11.10 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="trigBy">User 1</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="status">
+                        			<lightning:icon iconName="action:remove" size="xx-small" alternativeText="Indicates Success"/>
+                        		</div>
+      						</td>
+                    	</tr>
+                       <tr>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="jobID"><a href="#">1001</a></div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate"  title="jobName">Field Tracking</div>
+      						</td>
+                            <td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+                                <div class="slds-truncate"  title="date">05/06/2017</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="iniTime">11.00 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="compTime">11.10 am</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="trigBy">User 1</div>
+      						</td>
+                    		<td scope="col" class="slds-text-align_center slds-cell-buffer_left">
+        						<div class="slds-truncate" title="status">
+                        			<lightning:icon iconName="action:approval" size="xx-small" alternativeText="Indicates Success"/>
+                        		</div>
+      						</td>
+                    	</tr>
+                       
+                   </tbody>
+            </table>
+        </div>
+    </div>
+</aura:component>

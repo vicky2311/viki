@@ -48,6 +48,21 @@
         </picklistValues>
     </globalPicklists>
     <globalPicklists>
+        <name>hello</name>
+        <picklistValues>
+            <masterLabel>Chicken</masterLabel>
+            <translation><!-- Chicken --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lamb</masterLabel>
+            <translation><!-- Lamb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mutton</masterLabel>
+            <translation><!-- Mutton --></translation>
+        </picklistValues>
+    </globalPicklists>
+    <globalPicklists>
         <name>test_picklist</name>
         <picklistValues>
             <masterLabel>150</masterLabel>
@@ -64,21 +79,6 @@
         <picklistValues>
             <masterLabel>400</masterLabel>
             <translation><!-- 400 --></translation>
-        </picklistValues>
-    </globalPicklists>
-    <globalPicklists>
-        <name>hello</name>
-        <picklistValues>
-            <masterLabel>Chicken</masterLabel>
-            <translation><!-- Chicken --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Lamb</masterLabel>
-            <translation><!-- Lamb --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Mutton</masterLabel>
-            <translation><!-- Mutton --></translation>
         </picklistValues>
     </globalPicklists>
     <globalPicklists>

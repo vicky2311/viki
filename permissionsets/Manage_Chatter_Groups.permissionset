@@ -543,6 +543,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Campaign.CampaignImageId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Campaign.DB_Campaign_Tactic__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2227,6 +2232,10 @@
     </tabSettings>
     <tabSettings>
         <tab>standard-ChannelProgramLevel</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-CollaborationGroup</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>

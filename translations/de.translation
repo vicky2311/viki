@@ -32,29 +32,6 @@
         </picklistValues>
     </globalPicklists>
     <globalPicklists>
-        <name>my_picklist</name>
-        <picklistValues>
-            <masterLabel>23</masterLabel>
-            <translation><!-- 23 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>34</masterLabel>
-            <translation><!-- 34 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>531</masterLabel>
-            <translation><!-- 531 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>55</masterLabel>
-            <translation><!-- 55 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>77</masterLabel>
-            <translation><!-- 77 --></translation>
-        </picklistValues>
-    </globalPicklists>
-    <globalPicklists>
         <name>local</name>
         <picklistValues>
             <masterLabel>Abhi</masterLabel>
@@ -83,6 +60,29 @@
         <picklistValues>
             <masterLabel>Vikki</masterLabel>
             <translation><!-- Vikki --></translation>
+        </picklistValues>
+    </globalPicklists>
+    <globalPicklists>
+        <name>my_picklist</name>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>34</masterLabel>
+            <translation><!-- 34 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>531</masterLabel>
+            <translation><!-- 531 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>55</masterLabel>
+            <translation><!-- 55 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>77</masterLabel>
+            <translation><!-- 77 --></translation>
         </picklistValues>
     </globalPicklists>
     <globalPicklists>

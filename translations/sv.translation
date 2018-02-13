@@ -17,6 +17,40 @@
         <name>testing_3</name>
     </customLabels>
     <globalPicklists>
+        <name>hello</name>
+        <picklistValues>
+            <masterLabel>Chicken</masterLabel>
+            <translation><!-- Chicken --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lamb</masterLabel>
+            <translation><!-- Lamb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mutton</masterLabel>
+            <translation><!-- Mutton --></translation>
+        </picklistValues>
+    </globalPicklists>
+    <globalPicklists>
+        <name>test_picklist</name>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>203</masterLabel>
+            <translation><!-- 203 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>350</masterLabel>
+            <translation><!-- 350 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+    </globalPicklists>
+    <globalPicklists>
         <name>local</name>
         <picklistValues>
             <masterLabel>Abhi</masterLabel>
@@ -68,40 +102,6 @@
         <picklistValues>
             <masterLabel>77</masterLabel>
             <translation><!-- 77 --></translation>
-        </picklistValues>
-    </globalPicklists>
-    <globalPicklists>
-        <name>test_picklist</name>
-        <picklistValues>
-            <masterLabel>150</masterLabel>
-            <translation><!-- 150 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>203</masterLabel>
-            <translation><!-- 203 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>350</masterLabel>
-            <translation><!-- 350 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>400</masterLabel>
-            <translation><!-- 400 --></translation>
-        </picklistValues>
-    </globalPicklists>
-    <globalPicklists>
-        <name>hello</name>
-        <picklistValues>
-            <masterLabel>Chicken</masterLabel>
-            <translation><!-- Chicken --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Lamb</masterLabel>
-            <translation><!-- Lamb --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Mutton</masterLabel>
-            <translation><!-- Mutton --></translation>
         </picklistValues>
     </globalPicklists>
     <quickActions>

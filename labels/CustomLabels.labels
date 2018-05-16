@@ -39,6 +39,22 @@
         <value>2</value>
     </labels>
     <labels>
+        <fullName>aa</fullName>
+        <categories>aa</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>aa</shortDescription>
+        <value>aa</value>
+    </labels>
+    <labels>
+        <fullName>bb</fullName>
+        <categories>bb</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>bb</shortDescription>
+        <value>bb</value>
+    </labels>
+    <labels>
         <fullName>general</fullName>
         <categories>apple, banana, tomato, jalapenos</categories>
         <language>en_US</language>

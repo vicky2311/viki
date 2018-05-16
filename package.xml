@@ -1102,6 +1102,8 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Leela</members>
+        <members>Pavan</members>
         <members>Test_Label</members>
         <members>general</members>
         <members>general2</members>

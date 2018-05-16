@@ -23,6 +23,22 @@
         <value>100</value>
     </labels>
     <labels>
+        <fullName>X1</fullName>
+        <categories>1</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>1</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>X22</fullName>
+        <categories>2</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>22</shortDescription>
+        <value>2</value>
+    </labels>
+    <labels>
         <fullName>general</fullName>
         <categories>apple, banana, tomato, jalapenos</categories>
         <language>en_US</language>
